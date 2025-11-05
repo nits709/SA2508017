@@ -15,16 +15,17 @@ public class SA_01_LaunchBrowser {
 	public static void main(String[] args) throws MalformedURLException {
 		
 		//Launch chrome browser
-		WebDriver driver = new ChromeDriver();
-	
+		//WebDriver driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
 		
-	
+		URL gridURL = new URL("http://localhost:4444/wd/hub");
+		WebDriver driver1 = new RemoteWebDriver(gridURL,options);
 		//WebDriver driver1 = new SafariDriver();
 		
 		//Maximized the browser
-		driver.manage().window().maximize();
+		driver1.manage().window().maximize();
 		
 		// launch Url
-		driver.get("https://www.google.co.in");
+		driver1.get("https://www.google.co.in");
 	}
 }
