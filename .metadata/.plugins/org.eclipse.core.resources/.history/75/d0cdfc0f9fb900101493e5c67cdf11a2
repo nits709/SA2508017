@@ -1,0 +1,14 @@
+package webdriver_demos;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
+public class SA_01_LaunchBrowser {
+
+	
+	 //cntrl + shift + o (import the library or package)
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		//WebDriver driver1 = new SafariDriver();
+	}
+}

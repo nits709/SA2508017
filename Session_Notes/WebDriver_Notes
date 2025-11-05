@@ -1,0 +1,415 @@
+ Module 3: Selenium Webdriver.
+ Trainer Name : Nitin Gupta
+ Total Session : 19
+
+ 	Selenium WebDriver
+ 		1. Automation Concepts
+ 		2. Components of selenium
+ 		3. Introduction of selenium webdriver
+ 		4. Configuration of Selenium Webdriver
+ 		5. Basic Method of Webdriver
+ 			a. get()
+ 			b. getTitle()
+ 			c. SendKeys();
+ 			d. getCurrentURL();
+ 			e. getPageSource();
+ 			f. close();
+ 		6. Locators
+ 			a. Name
+ 			b. Id
+ 			c. ClassName.
+ 			d. CSSSelector
+ 			f. PartialLinktext
+ 			g. TagName
+ 			h. Relative
+ 			i. Linktext
+ 			j. Xpath
+ 		7. Handling Control
+ 			a. Text Box
+ 			b. Button
+ 			c. Links
+ 			d. checkbox
+ 			e. dropdown 
+ 			f. Radio Button
+ 			g. List Box
+ 		8. Synchronization
+ 			a. Thread.sleep();
+ 			b. ImplicitWait()
+ 			c. ExplicitWait()
+ 			d. FLuentWait()
+ 			e. PageLoadTimeOut()
+ 		9. Handle table (Web)
+ 		10. Handle Alert
+ 		11. Handling Multiple Window
+ 		12. Handling upload file
+ 		13. Robot Class	
+ 		14. Actions Class (For Mouse action)
+ 			a. Right Click
+ 			b. left click
+ 			c. doubleClick
+ 			d. Hover
+ 			e. Drag and drop
+ 		15. JavaScript Executor
+ 				Scroll page
+ 				Click on some Element
+ 		16. Handling Menus
+ 		17. Screenshot	
+
+ 	TestNG
+ 		a. Introduction
+ 		b. configuration
+ 		c. Execute Single Testcase
+ 		d. Execute Multiple Testcase
+ 		e. Annotations
+ 			1. @Test
+ 			2. @BeforeTest
+ 			3. @AfterTest
+ 			4. @BeforeMethod
+ 			5. @AfterMethod
+ 			6. @DataProvider
+ 			7. @Parameter
+ 			8. @Listerners
+ 		f. Data Driven Via @DataProvider (Approach of framework)
+ 		g. Modular Framework
+ 		h. Keyword Driven framework
+ 		i. Page Object Model (POM)
+ 		j. Hybrid Framework	 
+ 		k. Extent report.
+
+ 	Maven
+ 		a. Introduction
+ 		b. Configration
+ 		c. Adding Dependencies
+ 		d. Executing the script
+ 		e. Architecture	
+
+ 	Cucumber (BDD)
+ 		1. Introduction
+ 		2. Use
+ 		3. Configuration
+ 		4. Keyword - feature, Given, And, When, Then, Exmaples, Scenario, Scenario Outline
+ 		5. Hooks in cucumber
+ 		6. report in cucumber
+
+
+ 	Revision on Java
+ 		
+ 		1. Basic
+ 			 Variables
+ 			 Data Types
+ 			 Checking the conditions
+ 			 	a. If
+ 			 	b. If else
+ 			 	c. Nested If else
+ 			 	d. Switch case
+ 			loops
+ 				For Loop
+ 				Enhanced Loop (for each loop)
+ 			Functions
+ 				Writing the function
+ 				calling the function
+
+ 			Arrays
+ 				2-D arrays
+
+ 			OOPS
+ 				Creating Class
+ 				Creating Object of class
+ 				Statis Members and static method
+ 				Constructor
+
+ 			Inheritence
+ 				Interface
+
+ 			Exception Handling
+ 				try and catch
+ 				Throws keyword
+
+ 			Collections
+ 				List (VVVVVVVVVVVimportant)
+ 				Set
+ 				Map						 			
+
+
+
+ 		What is Software testing?
+ 		Process of checking the correctness, completeness, security, quality of developed software		
+
+ 		difference between actual and expected result it called bug
+
+
+ 		to Test login Functionality Manually
+ 		1. Open Browser
+ 		2. Hit the URL
+ 		3. Enter TestData into text box
+ 		4. Click on button
+ 		5. Observe
+
+ 		Automation testing is performing all above action via automation tools is called AT
+ 		Every testing tool is software.
+
+ 		Every tool understand some specific langugage
+ 			Java, C#, .net, Ruby, Javascript,PHP etc.
+
+
+ 		Advantages of Automation
+ 		1. time saving
+ 		2. Accuracy
+ 		3. Reduces human error
+ 		4. Cost Efficiency
+ 		5. 100% test coverage
+
+ 		When to Automate.
+ 		1. Application/ functionality should be stable
+ 		2. Same functionality to be executed multiple times.
+ 		3. Large amount of data to be used/tested
+ 		4. Large and complex project
+ 		5. performance and security testing
+ 		5. smoke, sanity and regression
+
+ 		agile sprint 2 - weeks
+
+ 			1 - 2 weeks - development and testing 
+ 			3 rd weeks - stg is planned
+ 			4rth weeks - production planned
+
+
+ 			Developement  | QA  		   | Staging | 						Production | 
+
+ 			Developers   | Testing         |  Automation (Sanity)      |  Smoke  |
+ 			Unit testing | functionality   |    Manual    			   |
+ 						 | Regression      |               			   |
+ 						 | Stories Testing |                		   |
+
+
+ 		types of Automation Tools
+ 		1. Unit testing
+ 			a. JUNIT
+ 			b. TestNG
+ 			c. Nunit
+
+ 		2. GUI Testing/ functionality/ Perfromance
+ 			1. Selenium
+ 			2. QTP | UFT
+ 			3. TOSCA
+ 			4. APPIUM
+ 			5. Cypress
+ 			6. Playwright
+ 			7. Jmeter
+
+ 		3. API Testing
+ 			postman (Manual)
+ 			rest-assured	
+
+
+ 		Process of Automation & tool selection
+ 		1. Planning
+ 		2. Selection of Tools
+ 				a. type of application
+ 				b. Cost of tool - Open source.
+ 				c. Support availability
+ 				e. Tester availability
+				d. Report functionality
+				f. Money.
+		3. Creating/Writing automation scripts
+		4. Generate a Test data	
+		5. Execute the scripts
+		6. Generate report
+
+
+		URL - https://www.selenium.dev/
+
+		
+		Hospital as interface
+			1. BloodTest();
+			2. scanBody();
+			3. emergency();
+
+		TownHospital() implements Hospital
+			1. 	
+
+		cityHospital() extends TownHospital	
+
+
+
+		Selenium
+
+		It is bundle/suite of test automation tools to test web applications (websites)
+
+		ThoughtWorks - jason huggins | 2004
+		2006
+
+		Components of Selenium
+		1. Selenium IDE (Browser extension) - Record and playback functionality
+		2. Selenium RC (Remote Control) - 2009 (Offically Deprecated)
+		3. Selenium Webdriver 
+		4. Selenium GRID (Parallel Execution, Cross browser testing.)
+
+		What is Selenium Webdriver? | Simon Stewart.
+		1. Automation testing tool which help tp test webbased application (websites)
+		2. WebDriver is an interface. (Open Source) Qualitia, katalon, watir etc.
+		3. WebDriver is an API (application programmming interface).
+
+		latest version of selenium 4.38.0
+		from version 2 - 3.99 selenium uses JSON Wired protocol
+		from version 4 - till today uses W3C protocol.
+
+		Scenario to place order on flipkart guest user. + Java, Python, javascript etc...
+		1. Launch Bowser - Chrome | Firefox
+		2. Open Flipkart URL - get()
+		3. Search product
+		4. Add to cart
+		5. Navigate to checkoutpage
+		6. make payment
+		7. Confrim the order.
+
+		Langugage binding uses by selenium 
+		1. Java
+		2. Python
+		3. PHP
+		4. Perl
+		5. javaScript
+		6. C#
+		7. .net
+
+		Which techonolgy uses by webdriver API method
+		REST - API techonolgy
+		JSON - Dataformat
+
+	Step by step Webdriver- Architecture Explanation
+
+ 	1. How selenium werb-driver works
+       test scripts execution - we write a test scripts using a selenium client(java, python, etc.) in your choosen langugage 
+
+    2. Command translations - The client library translate out test script into json format 
+       ( protocal) w3c or json wired 
+
+    3. HTTPS communication : These JSON commands sends over HTTP to the appropriate 	
+        browser    driver (CD,FD, SD, OD, ED).
+
+    4. Driver - Browser interactions: The browser driver recivies the command from protocol 
+       to perform the specified action (click, dropdown, get, enter)
+
+    5. Handling response: The browser response is sent back through the driver to the
+       client library which then proceed with next steps in the scripts.
+
+
+       Pre-requiste of selenium webdriver
+       1. Operating System - minimum window - 10 | Safari - M2
+       2. Any latest browser
+       3. Minimum java version - 11 (open cmd and type - java -version)
+       4. Any Editor - Eclipse or Intellij.
+       5. Selenium jar (Selenium Webdriver or Selenium grid). 
+
+       Configuration of Selenium Webdriver
+       1. Create 2 Separate Folder
+       		a. Yourname_seleniumWorkspace.
+       		b. Selenium Jars
+
+       2. Open Selenium.dev website and download selenium grid o webdriver jars
+       3. Launch Eclipse
+       4. Switch Workspace --> Select folder  which created in step 1.		
+       			File > Switch Workspace > Other > Browse > look for folder > Open
+       			 > Launch
+       5. Create Project - File > New > Java Project > Automation_Webdriver			 
+       6. uncheck Create Module-info java file on New Java Project window.
+       7. Click on Finish Button.	
+
+       Steps to configurate Selenium Jars in to Project.
+       1. Right click on project > Build Path > Configure Build Path
+       2. Click on Libraries 
+       3. Click on ClassPath
+       4. Click on Add External Jars (2nd Option)
+       5. Select the selenium jar (download in step number 2). > Open
+       6. Click on Apply and close button	
+       7. Validate the selenium jar got added into project
+       		open project > look for reference libraries > selenium jars will be presented.
+
+
+       		WebDriver Methods
+       		1. Launch Browsers
+       				Create an reference of Webdriver interface,
+       				call browser specific driver class - chromeDriver, safariDriver, FirefoxDriver, EdgeDriver
+
+       			WebDriver driver = new ChromeDriver();
+       		2. driver.manage().window().Maximized() maximized any browser 
+       		3. Get(): Launch the URL
+
+
+       		Exception In Selenium
+       		1. InvalidArgumentException:Your URL is in wrong syntax, Url should starts with
+       			http:// or https://			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+package webdriver_demos;
+
+import java.net.URL;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class SA_01_LaunchBrowser {
+
+	
+	 //cntrl + shift + o (import the library or package)
+	public static void main(String[] args) {
+		
+		//Launch chrome browser
+		//WebDriver driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		
+		URL gridURL = new URL("http://localhost:4444/wd/hub");
+		WebDriver driver1 = new RemoteWebDriver(gridURL,options);
+		//WebDriver driver1 = new SafariDriver();
+		
+		//Maximized the browser
+		driver1.manage().window().maximize();
+		
+		// launch Url
+		driver1.get("https://www.google.co.in");
+	}
+}
