@@ -1,0 +1,14 @@
+Notes: no need to upload this anywhere 
+
+Assignments
+
+1. Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f
+2. Enter username as yourname (using locator name)
+3. Ente password as youname (using locator name)
+4. Click on login button (using locator name)
+
+
+1. Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f
+2. Enter username as yourname (using locator id)
+3. Ente password as youname (using locator id)
+4. Click on login button (using locator id)

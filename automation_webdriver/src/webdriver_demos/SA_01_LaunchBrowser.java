@@ -1,24 +1,22 @@
 package webdriver_demos;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.RemoteWebDriver;
+
+
 
 public class SA_01_LaunchBrowser {
 
-	
+	//command + shift + o
 	 //cntrl + shift + o (import the library or package)
 	public static void main(String[] args) throws MalformedURLException {
 		
 		//Launch chrome browser
 		WebDriver driver = new ChromeDriver();
 	
-		
-	
+		//Safari browser
 		//WebDriver driver1 = new SafariDriver();
 		
 		//Maximized the browser
@@ -26,5 +24,8 @@ public class SA_01_LaunchBrowser {
 		
 		// launch Url
 		driver.get("https://www.google.co.in");
+		
+		// closing the opened browser
+		//driver.close();
 	}
 }

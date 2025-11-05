@@ -334,14 +334,69 @@
        			WebDriver driver = new ChromeDriver();
        		2. driver.manage().window().Maximized() maximized any browser 
        		3. Get(): Launch the URL
+       		4. Close(): Close the opened browser window
+       		5. getTitle(): which return the title of the page (String)
 
 
        		Exception In Selenium
        		1. InvalidArgumentException:Your URL is in wrong syntax, Url should starts with
-       			http:// or https://			
+       			http:// or https://	
+       		2. NoSuchElementException:Selenium is unable to locate the element over the page
+       			What ae possible reason
+       			1. The value passed to element is wrong or invalid
+       			2. Value passed to element is dynamic in nature
+       			3. Syncronization issue
+       			4. Element could be present inside the iFrame.			
 
 
 
+login scenario wants to automate.
+1. Open Browser
+2. Navigate to Facebook
+3. Enter the valid username
+4. Enter the invalid password
+5. click on login
+6. capture the error.
+
+
+		WebElement
+		1. Every element/Control on the webpage treated as webelement in selenium webDriver
+		2. We can reach out to element over the page via locators(properties of an element)
+		3. WebElement is an interface.
+		4. WebElement can hold any control/element of the webpage.
+		
+		
+		Locators
+		1. Name
+		2. Id
+		3. className
+		4. CssSelector
+		5. Xpath
+		6. PartialLinkText
+		7. Tagname
+		8. LinkText
+		9. Relative Locator
+
+
+	<button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy"
+ 	name="login" data-testid="royal-login-button" type="submit"
+ 	id="u_0_5_FW">Log in</button>
+ 	
+ 	Tagname - first and last entrie of property are tagname
+ 	attribute have its value
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
 
 
 
