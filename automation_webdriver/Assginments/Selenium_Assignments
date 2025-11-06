@@ -7,8 +7,22 @@ Assignments
 3. Ente password as youname (using locator name)
 4. Click on login button (using locator name)
 
-
 1. Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f
 2. Enter username as yourname (using locator id)
 3. Ente password as youname (using locator id)
 4. Click on login button (using locator id)
+
+1. Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f
+2. Enter username as yourname (using locator classname)
+3. Ente password as youname (using locator classname)
+4. Click on login button (using locator classname)
+
+1. Open https://facebook.com
+2. Enter username as yourname (using locator classname)
+3. Ente password as youname (using locator classname)
+4. Click on login button (using locator classname)
+
+5. automate all above assignment with cssselector locator
+	with sinle and multiple attribute.
+	
+6. pick any login page of your choice and automate by using css selector.	

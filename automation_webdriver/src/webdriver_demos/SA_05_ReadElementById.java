@@ -24,7 +24,8 @@ public class SA_05_ReadElementById {
 		WebElement loginButton = driver.findElement(By.name("login"));
 		loginButton.click();
 
-		Thread.sleep(2000);
+		Thread.sleep(2000); //checked exception
+		
 
 		driver.close();
 

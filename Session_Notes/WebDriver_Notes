@@ -336,6 +336,7 @@
        		3. Get(): Launch the URL
        		4. Close(): Close the opened browser window
        		5. getTitle(): which return the title of the page (String)
+       		6. GetCurrentURL - Which return url of current page (String)
 
 
        		Exception In Selenium
@@ -366,10 +367,14 @@ login scenario wants to automate.
 		4. WebElement can hold any control/element of the webpage.
 		
 		
+		Important point to remember 
+		avoid attribute values which contains number within.
+		reason -> number may get change in future.
+		
 		Locators
 		1. Name
 		2. Id
-		3. className
+		3. className (class in html)
 		4. CssSelector
 		5. Xpath
 		6. PartialLinkText
@@ -384,6 +389,59 @@ login scenario wants to automate.
  	
  	Tagname - first and last entrie of property are tagname
  	attribute have its value
+ 	
+ 	
+ 	Css Selector
+ 	1. This locators helps selenium to read control/element by using 
+ 		single or multiple attributes
+ 		format - tagname[attribtue='value']
+ 		
+ 		
+ 			<input type="text" class="inputtext _55r1 _6luy" name="email" id="email"
+ 			 data-testid="royal-email" placeholder="Email address or phone number"
+ 			  autofocus="1"
+ 		 	autocomplete="username webauthn" aria-label="Email address or phone number">
+ 		 	
+ 		 
+ 		 CSSSelector for username field of facebook login page
+ 		 Notes: while creating CSS make sure cssselector should valid and unqiue in nature
+ 		 what means that --> it should return target element  
+ 		 
+ 		 1. input[name='email'] --> target element highlighted in page and returning 1 of 1 matching nodes.
+ 		 2. input[type='text']
+ 		 
+ 		 
+ 		 Google Search box CssSelector
+ 		 textarea[jsname='yZiJbe']
+ 		 
+ 		 
+ 		 CssSelector with multiple attibutes
+ 		 tagname[attribtue='value'][attribtue='value']
+ 		 
+ 		 input[name='email'][id='email']
+ 		 
+ 	==================================================================
+ 		
+ 	3. Special Characters.
+ 	a. ^ - When attribute value ending part is dynamic in nature then use - 
+ 		   starts with tagname[attribute^='value']
+ 	b. $ - When Attribute value starting part is dynamic in nature then use - 
+ 		   ends with tagname[attribute$='value']
+ 	c. * - matching supplied cssselector in across html page  tagname[attribute$='value']
+ 	d. # - homework (in css, # is stands for Id attribute)
+ 	e. . - homework (in css, . is stands for class attribute)
+ 		 
+ 		 1233455XXXXXXX
+ 		 
+ 		 
+ 	<tagname attribtue="value" attribtue="value" attribtue="value" attribtue="value">About</tagname>	 
+ 		 inner text of an element
+ 		 
+ 		 
+ 		 
+ 		 
+ 		 
+ 		 	
  	
  	
  	
