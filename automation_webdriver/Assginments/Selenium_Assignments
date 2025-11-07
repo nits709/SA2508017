@@ -23,6 +23,31 @@ Assignments
 4. Click on login button (using locator classname)
 
 5. automate all above assignment with cssselector locator
-	with sinle and multiple attribute.
+   with sinle and multiple attribute.
 	
-6. pick any login page of your choice and automate by using css selector.	
+6. pick any login page of your choice and automate by using css selector.
+
+7.	Open https://www.facebook.com/  (absoulte and relative)
+	Enter valid user name as test@gmail.com  (Use xpath)
+	Enter invalid password (Use xpath)
+	Click on Login button (Use xpath)
+	Display the error message 
+	
+8.	Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f (absoulte and relative)
+	a.	Enter username as your name (using locator xpath)
+	b.	Enter password as yourname_123 (using locator xpath)
+	c.	Click on login button. (using locator xpath)
+	d.	Display the error message 
+	
+9.	Open https://www.google.com
+	a.	Enter Selenium in search box using Xpath
+	b.	Hit Enter
+	c.	Verify the title (Title should contain sachin)	
+	
+10.	Open https://www.google.com
+	a.	print all links which are present on google page by using xpath
+	b.	display the count
+	c.	then print the name of each links
+	
+
+	

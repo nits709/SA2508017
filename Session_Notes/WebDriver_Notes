@@ -2,6 +2,8 @@
  Trainer Name : Nitin Gupta
  Total Session : 19
 
+GitHub : https://github.com/nits709/SA2508017
+
  	Selenium WebDriver
  		1. Automation Concepts
  		2. Components of selenium
@@ -436,6 +438,75 @@ login scenario wants to automate.
  		 
  	<tagname attribtue="value" attribtue="value" attribtue="value" attribtue="value">About</tagname>	 
  		 inner text of an element
+ 		 
+ 		 
+ 		 
+ 		 
+ 	Xpath - Xml Path
+ 	
+ 	Address of element/control over webpage	 
+ 	
+ 	India > Maharashtra > Pune > 
+ 	
+ 	kharadi > left turn > right trun > ivyestate > right turn > right turn >123
+ 	
+ 	India > MP > 
+ 		  > Maharashtra >
+ 		  > UP
+ 		  > Andra
+ 		  > Tele
+ 		  > Delhi	
+ 	
+ 	/India/Maharashtra/Pune/Kharadi/leftturn/rightturn/ivyestate/rightturn/rightturn/123
+ 	
+ 	
+ 	Relative xpath
+ 		Pune > kharadi > left turn > right trun > ivyestate > right turn > right turn >123
+ 	
+ 	
+ 	two types of xpath
+ 	1. complete xpath | absolute xpath
+ 	2. dynamic xpath | relative xpath
+ 	
+ 	Complete xpath : always starts from root tagname of the html page
+ 		root tagname -> html
+ 		/html
+ 		
+ 		
+ 	/html/body/div[2]/div[4]/form/div/div/div/div/div[2]/textarea
+ 	
+ 	/html/body/div[2]/div[4]/form/div/div/div[3]/center/input
+ 	
+ 		
+ 	/html/body/.../div/div/div/div/div/div/div[2]/div/div/form/div/div/input
+ 	
+ 	
+ 	
+ 	relative Xpath -- //tagname[@attribtue='value']
+ 					  1. //input[@name='email']
+ 					  2. //input[@name='pass']
+ 	
+ 	and operator				  
+ 	//tagname[@attribute='value' and @attribute='value']
+ 	
+ 	OR
+
+	//tagname[@attribute='value' | @attribute='value'] 					  
+ 					  
+ 					  
+ 					  //tagname
+ 					  //*
+ 					  child
+ 					  parent
+ 					  following-sibling
+ 					  preceeding-sibling
+ 					  text()
+ 					  contains()
+ 					  normalize-space()
+ 					  
+	
+ 	
+ 	
  		 
  		 
  		 
