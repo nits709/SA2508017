@@ -23,7 +23,7 @@ Assignments
 4. Click on login button (using locator classname)
 
 5. automate all above assignment with cssselector locator
-   with sinle and multiple attribute.
+   with single and multiple attribute.
 	
 6. pick any login page of your choice and automate by using css selector.
 
@@ -48,6 +48,21 @@ Assignments
 	a.	print all links which are present on google page by using xpath
 	b.	display the count
 	c.	then print the name of each links
+	
+11. Open https://echoecho.com/htmlforms09.htm (check the element isSelected, Enable, displayed)
+	a.  First print  status of each checkbox
+	b.  click on each checkbox
+	c.  print status again of each checkbox.
+	d.  click on each checkbox again
+	e. repeat step c
+	
+12 Open https://echoecho.com/htmlforms10.htm
+	a. First print status of each radio button	
+	b. click on each radio button
+	c. print status again of each radio.
+	d. click on each radio again
+	e. repeat step c
+	
 	
 
 	
