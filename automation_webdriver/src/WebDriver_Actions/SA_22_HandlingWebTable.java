@@ -37,9 +37,9 @@ public class SA_22_HandlingWebTable extends baseFunction {
 		System.out.println("company name --> "
 				+ driver.findElement(By.xpath("//table[@class='dataTable']/tbody/tr[1]/td[1]/a")).getText());
 
-		for (int i = 0; i < nRows.size(); i++) {
-			System.out.println(driver
-					.findElement(By.xpath("//table[@class='dataTable']/tbody/tr[" + (i + 1) + "]/td[1]/a")).getText());
+		for (int i = 1; i <= nRows.size(); i++) {
+			System.out.println(
+					driver.findElement(By.xpath("//table[@class='dataTable']/tbody/tr[" + i + "]/td[1]/a")).getText());
 		}
 
 		Thread.sleep(2000);
