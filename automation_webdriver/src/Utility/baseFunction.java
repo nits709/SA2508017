@@ -33,6 +33,12 @@ public class baseFunction {
 
 	public static void launchURL(String applicationURL) {
 		driver.get(applicationURL);
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public static void quitBrowser() {

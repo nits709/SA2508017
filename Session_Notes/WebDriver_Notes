@@ -516,6 +516,40 @@ login scenario wants to automate.
  	
  	
  	
+Handling Dropdown
+	If the control/element is having <select> tag then only selenium will treats as dropdown
+	
+	Select Class --> for handling this element we use select class to handle dropdown list or list box
+	to handle dropdown we have to use select class in selenium there is no other way to automate.
+
+Methods
+	1. getFirstSelectedOption(): Returns the selected option from dropdown list(WebElement)
+	2. getOptions(): Returns the lists of all the options from the dropdown (List<WebElement)
+	3. selectByVisibleText(): Select the option by its inner text/ text present on options
+	4. selectByValue: Select option from DD by using attribute value
+	5. SelectbyIndex: select option from DD by using index (0th based)
+
+Operations
+1. Display name of selected country.(Default) 
+2. Display the name of all countries
+3. Select any country name
+4. Display the name of selected country.
+5. Display list of the country.	
+ 	
+ 	notes : bypassing inbetween tag use "//" in xpath.
+Handling WebTable 	
+
+xpath of first header row
+	Header row --->	//table[@class='dataTable']/thead/tr
+ 	total no of column present in header row --> //table[@class='dataTable']/thead/tr/th
+ 	
+ 	other way 
+ 	//table[@class='dataTable']//tr
+ 	
+ 	
+ 	total no of row presen in table - //table[@class='dataTable']/tbody/tr
+ 	total no of column present in entire table -> //table[@class='dataTable']/tbody/tr/td
+ 	company name  --> //table[@class='dataTable']/tbody/tr[1]/td[1]/a
  	
  				  
 	
