@@ -1,5 +1,7 @@
 package Utility;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -9,7 +11,7 @@ import org.openqa.selenium.safari.SafariDriver;
 public class baseFunction {
 
 	public static WebDriver driver;
-	public static String bName = "Chrome"; 
+	public static String bName = "Chrome";
 
 	public static void launchBrowser(String browserName) {
 
@@ -33,12 +35,7 @@ public class baseFunction {
 
 	public static void launchURL(String applicationURL) {
 		driver.get(applicationURL);
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 	public static void quitBrowser() {

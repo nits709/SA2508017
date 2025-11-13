@@ -487,6 +487,8 @@ login scenario wants to automate.
  	relative Xpath -- //tagname[@attribtue='value']
  					  1. //input[@name='email']
  					  2. //input[@name='pass']
+ 					  
+ 		creating xpath using text function =  //tagname[text()='innertext']
  	
  	and operator				  
  	//tagname[@attribute='value' and @attribute='value']
@@ -550,6 +552,59 @@ xpath of first header row
  	total no of row presen in table - //table[@class='dataTable']/tbody/tr
  	total no of column present in entire table -> //table[@class='dataTable']/tbody/tr/td
  	company name  --> //table[@class='dataTable']/tbody/tr[1]/td[1]/a
+ 	
+ 	
+ 	
+	Synchronization (Waits in selenium)
+	Synchronization is adjusting execution speed of tool with speed of application. 
+	
+
+
+	Methods in selenium to handle synchronization
+	1. Thread.sleep();
+		a. it pauses the entire execution for given time period.
+		b. it is applicable for single statement only.
+		c. Mandatory delay (it take mandatory time, 1,2,3)
+		
+	2. Implicit wait (global wait)
+		a. it doesn't takes a mandatory delay(if element loads within 2 seconds then it will not wait for given time period)
+		b. default polling interval is 500 milisecond (.5 second) 10 
+		c. Existence of element --> present of element --> display of element
+		d. Only checks the existence of an element. 
+		e. Stops early as soon as gets the element
+		f. for given time period, implicit wait can ignore only NOSuchElementException (10 second)
+		g. Applies for each line of code which starts from driver.findelement or driver.findelements
+	 
+	
+	3. Explicit wait
+		a. it doesn't takes a mandatory delay(if element loads within 2 seconds then it will not wait for given time period)
+		b. default polling interval is 500 milisecond (.5 second) 10 / 20 
+		c. checks the existence of element along with other states of elements also(presence, enabling, appears, disappear etc.)
+		
+		Syntax :
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5)); // 15 seconds
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[aria-label^='Lal Ghati']")))
+				.click();
+				
+				
+		Notes: lets say am using 
+		impiclitwait - 10
+		
+	4. FluentWait -
+		a. it doesn't takes a mandatory delay(if element loads within 2 seconds then it will not wait for given time period)
+		b. customize polling wait is allow.
+		c. check all type of state of an element
+		d. customize to all any exceptions
+		
+		Syntax
+		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(driver);
+		fWait.withTimeout(Duration.ofSeconds(10)).ignoring(NoSuchElementException.class)
+		.ignoring(StaleElementReferenceException.class)
+		.pollingEvery(Duration.ofSeconds(2))
+		.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[aria-label^='Lal Ghati']")))
+		.click();
+		
+	5. PageLoadTimeOut		
  	
  				  
 	
