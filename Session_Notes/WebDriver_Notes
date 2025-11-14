@@ -568,7 +568,7 @@ xpath of first header row
 		
 	2. Implicit wait (global wait)
 		a. it doesn't takes a mandatory delay(if element loads within 2 seconds then it will not wait for given time period)
-		b. default polling interval is 500 milisecond (.5 second) 10 
+		b. default polling interval is 500 milisecond (.5 second) 
 		c. Existence of element --> present of element --> display of element
 		d. Only checks the existence of an element. 
 		e. Stops early as soon as gets the element
@@ -578,7 +578,7 @@ xpath of first header row
 	
 	3. Explicit wait
 		a. it doesn't takes a mandatory delay(if element loads within 2 seconds then it will not wait for given time period)
-		b. default polling interval is 500 milisecond (.5 second) 10 / 20 
+		b. default polling interval is 500 milisecond (.5 second) 
 		c. checks the existence of element along with other states of elements also(presence, enabling, appears, disappear etc.)
 		
 		Syntax :
@@ -604,7 +604,40 @@ xpath of first header row
 		.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[aria-label^='Lal Ghati']")))
 		.click();
 		
-	5. PageLoadTimeOut		
+	5. PageLoadTimeOut	
+	
+	
+		page cannot reached	
+ 	
+ 	
+ 	
+ 	Why application need alerts?
+ 	Alert force immeditate attentions
+ 	1. remove file
+ 	2. cancelling subscription
+ 	3. reset password.
+ 	
+ 	Handling Alert In Selenium 
+ 	1. Alert is an interface in selenium
+ 	2. Alert is part of Browser (designed by javascript)
+ 	3. until user provide input, cannot access rest of websites
+ 	
+ 	Type of Alerts
+ 	 	1. Simple --> only meant to accept input user --> OK  click on ok button
+ 	 	2. Confirmation alert
+ 	 	3. Prompt alert 
+ 	 	
+ 	 	
+ 	Methods
+ 		1. switchTo();
+ 		2. accept();	--> Ok button
+ 		3. dismiss();
+ 		4. getText() --> capture text present over alert.
+ 	 	
+ 	 	
+ 	javascriptExecutor = javascript executor is an interface in selenium
+ 						This accepts 2 parameter 1 , Method name , element 2  	
+ 	
  	
  				  
 	

@@ -1,0 +1,5 @@
+[17931:1108375:1114/195149.131164:ERROR:chrome/browser/chrome_browser_main.cc:1027] The use of Rosetta to run the x64 version of Chromium on Arm is neither tested nor maintained, and unexpected behavior will likely result. Please check that all tools that spawn Chromium are Arm-native.
+[17931:1108375:1114/195152.190128:INFO:components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc:206] No machine level policy manager exists.
+[17931:1108375:1114/195157.816822:INFO:CONSOLE:1] "AdBlock Enabled: false", source: https://demoqa.com/alerts (1)
+[17931:1108375:1114/200751.476062:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_ExtensionsZeroStatePromo before browser initialization complete; IPH will not be shown.
+[17931:1108421:1114/200751.962452:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT

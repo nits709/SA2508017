@@ -86,6 +86,34 @@ Assignments
  	
 17. Open https://www.cricbuzz.com/live-cricket-scorecard/91778/aus-vs-ind-1st-test-india-tour-of-australia-2024-25 		
    a. print the entire table of the said page with each column value
+   
+
+18. open to Google page
+	1. search selenium 
+	2. and print the all suggest list in console using xpath. 
+
+19.Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+a.	Enter user name as admin
+b.	Enter password as admin123
+c.	Click on Login Button
+d.	IF LOGIN GET SUCCESSFULL THEN
+e.	Click on down arrow next to the name
+f.	Click on logout
+
+20. Open https://omayo.blogspot.com/
+a.	Display the status of Mr Option check box
+b.	Click on Check This button. (Then Mr. Option will get enabled after 10 seconds.
+c.	Select the Mr Option Checkbox
+d.	Display the status
+    Complete this assignment using ExplicitWait using method as elementToBeClickable
+
+21 Open https://www.chabadpotomac.com/templates/articlecco_cdo/aid/6617538/jewish/Hebrew-School-New-Student.htm
+  Automate radio button
+	
+   
+   
+   
+   
  	
 	
 	

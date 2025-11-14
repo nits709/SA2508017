@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -16,7 +17,9 @@ public class baseFunction {
 	public static void launchBrowser(String browserName) {
 
 		if (browserName.equals("Chrome")) {
-			driver = new ChromeDriver();
+			ChromeOptions op = new ChromeOptions();
+			op.addArguments("--start-maximized");
+			driver = new ChromeDriver(op);
 			System.out.println("Chrome Launched");
 		} else if (browserName.equals("Safari")) {
 			driver = new SafariDriver();
@@ -34,7 +37,11 @@ public class baseFunction {
 	}
 
 	public static void launchURL(String applicationURL) {
-		driver.get(applicationURL);
+		driver.get(applicationURL); // 30 seconds
+		// URL
+		// driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+
+		// elements
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
