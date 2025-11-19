@@ -636,7 +636,16 @@ xpath of first header row
  	 	
  	 	
  	javascriptExecutor = javascript executor is an interface in selenium
- 						This accepts 2 parameter 1 , Method name , element 2  	
+ 						This accepts 2 parameter 1 , Method name , element 2 
+ 						
+ 						
+ 	WindowHandles					 	
+ 	getWindowHandle - ID of main Window (SingleWindow)
+ 	getWindowHandles - Would return the ID's of all windows opened in single session.
+ 	
+ 	Selenium webdriver, would identify windows based on Id's being allocated by the selenium
+ 	itself during the session only
+ 	these id's would dynamic in natures, mean what those are not duplicate at all, at any instances.
  	
  	
  				  

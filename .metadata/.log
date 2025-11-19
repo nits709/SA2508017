@@ -490,3 +490,29 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 	 at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
 	 at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
 	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-11-19 20:07:11.041 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nitingupta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/nitingupta/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-19 20:07:14.345
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-19 20:07:22.412
+!MESSAGE Logback config file: /Volumes/Renuka/Professional Stuff (Restricted)/Session_material/Session_WorkSpaces/SA2508017_Workspace/WebDriver_Module/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+!SESSION 2025-11-19 22:41:41.182 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nitingupta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/nitingupta/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-19 22:41:43.947
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-19 22:41:49.643
+!MESSAGE Logback config file: /Volumes/Renuka/Professional Stuff (Restricted)/Session_material/Session_WorkSpaces/SA2508017_Workspace/WebDriver_Module/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml

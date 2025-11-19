@@ -87,7 +87,6 @@ Assignments
 17. Open https://www.cricbuzz.com/live-cricket-scorecard/91778/aus-vs-ind-1st-test-india-tour-of-australia-2024-25 		
    a. print the entire table of the said page with each column value
    
-
 18. open to Google page
 	1. search selenium 
 	2. and print the all suggest list in console using xpath. 
@@ -109,6 +108,16 @@ d.	Display the status
 
 21 Open https://www.chabadpotomac.com/templates/articlecco_cdo/aid/6617538/jewish/Hebrew-School-New-Student.htm
   Automate radio button
+  
+22. Open a webpage that has a link to open a new tab or window (e.g., https://demoqa.com/browser-windows).
+	Click the Alert,Frame & Windows
+	Click on Browser Window
+	Write an automation scripts to handle window on 
+		1. New Tab  - get and print message from tab
+		2. New Window - get and print message from window
+		3. New Window Message.	- get and print message from window	 
+
+23.		 
 	
    
    
