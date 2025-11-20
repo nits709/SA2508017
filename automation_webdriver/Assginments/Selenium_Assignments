@@ -117,7 +117,11 @@ d.	Display the status
 		2. New Window - get and print message from window
 		3. New Window Message.	- get and print message from window	 
 
-23.		 
+23. Open https://demo.guru99.com/test/simple_context_menu.html
+	1. right click on element
+	2. display all option present on list
+	3. click on each element and get the text from alert and accept alert
+	4. repeat  first 1,2,3 steps until completes.		 
 	
    
    

@@ -648,7 +648,52 @@ xpath of first header row
  	these id's would dynamic in natures, mean what those are not duplicate at all, at any instances.
  	
  	
- 				  
+ 	
+ 	Iframe, can handle by index and element property.
+ 	index always starts with 0;
+ 	
+ 	getLocation(); this would return the present axis of element over the page (location of element) 
+ 	
+ 			  
+	at starting of project 
+	i have 5 testcases only - that would easy for me to automate
+	execute it manually 
+	
+	after 5 years . 
+	1. 200+
+	2. i needs to run smoke, regression, sanity testcases separatly.
+	3. certain testcase must run with multiple testdata.
+	4. needs reports
+	5. 200+ , chrome , safari  --  parallel execution.
+	
+	
+	TESTNG -- Unit testing framework.
+	testNG (Next generation)
+	famous unit testing framework.
+	
+	Advantages.
+	1. group testcases' (Smoke,sanity, regression)
+	2. login -> PLP - PDP - Checkout | set priority
+	3. Anotations. 
+		a. @Test -> means testcase | testng treated that method as testcase.
+		b. @BeforeTest
+		c. @AfterTest
+		d. @BeforeClass
+		e. @AfterClass
+		f. @dataProvider
+		h. @BeforeMethod
+		i. @AfterMethod.
+		
+	4. allow automation tester to generate reports.
+		a. normal report (html)
+		b. extent-Report (html)	
+		
+	5. 	Cross browser testing - one by one , parallel
+		1. single test to run of multiple browser
+		2. single test to single browser
+		3. parallel execution
+	
+	6. Testng class doesn't have main method unlike java class.
 	
  	
  	

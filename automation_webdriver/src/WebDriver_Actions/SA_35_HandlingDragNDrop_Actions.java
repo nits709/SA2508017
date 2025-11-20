@@ -19,26 +19,18 @@ public class SA_35_HandlingDragNDrop_Actions extends baseFunction {
 		WebElement drop = driver.findElement(By.id("droppable"));
 
 		act.dragAndDrop(drag, drop).build().perform();
-		
-		//driver.switchTo().parentFrame(); // from child iframe to parent iframe
-		
-		//driver.switchTo().defaultContent(); // from iframe to main page (webpage)
-		
-		
-		
-		//  whatever iframe are in from there i want to go back to main page (website)
-		
-		//driver.switchTo().defaultContent();
-		
-		
-		// from child iframe , want to go back to parent iframe 
-		//driver.switchTo().parentFrame();
-		
-		
-		
-		
-		
-		
+
+		// driver.switchTo().parentFrame(); // from child iframe to parent iframe
+
+		// driver.switchTo().defaultContent(); // from iframe to main page (webpage)
+
+		// whatever iframe are in from there i want to go back to main page (website)
+
+		// driver.switchTo().defaultContent();
+
+		// from child iframe , want to go back to parent iframe
+		// driver.switchTo().parentFrame();
+
 	}
 
 }

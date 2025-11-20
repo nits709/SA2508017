@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-20T22:07:07 IST" name="Default suite" finished-at="2025-11-20T22:07:07 IST" duration-ms="122">
+    <groups>
+    </groups>
+    <test started-at="2025-11-20T22:07:07 IST" name="Default test" finished-at="2025-11-20T22:07:07 IST" duration-ms="122">
+      <class name="testNG_Demos.TNG_02_Priority">
+        <test-method signature="setupBrowser()[pri:1, instance:testNG_Demos.TNG_02_Priority@50b472aa]" started-at="2025-11-20T22:07:07 IST" name="setupBrowser" finished-at="2025-11-20T22:07:07 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="closeBrowser()[pri:2, instance:testNG_Demos.TNG_02_Priority@50b472aa]" started-at="2025-11-20T22:07:07 IST" name="closeBrowser" finished-at="2025-11-20T22:07:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="doRegisteration()[pri:3, instance:testNG_Demos.TNG_02_Priority@50b472aa]" started-at="2025-11-20T22:07:07 IST" name="doRegisteration" finished-at="2025-11-20T22:07:07 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisteration -->
+        <test-method signature="doLogin()[pri:4, instance:testNG_Demos.TNG_02_Priority@50b472aa]" started-at="2025-11-20T22:07:07 IST" name="doLogin" finished-at="2025-11-20T22:07:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="setupAppURL()[pri:5, instance:testNG_Demos.TNG_02_Priority@50b472aa]" started-at="2025-11-20T22:07:07 IST" name="setupAppURL" finished-at="2025-11-20T22:07:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAppURL -->
+      </class> <!-- testNG_Demos.TNG_02_Priority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
