@@ -2,6 +2,8 @@
  Trainer Name : Nitin Gupta
  Total Session : 19
 
+email - nitingupta.gupta46@gmail.com - teams
+Linkedin - nitingupta3005@gmail.com
 GitHub : https://github.com/nits709/SA2508017
 
  	Selenium WebDriver
@@ -676,13 +678,13 @@ xpath of first header row
 	2. login -> PLP - PDP - Checkout | set priority
 	3. Anotations. 
 		a. @Test -> means testcase | testng treated that method as testcase.
-		b. @BeforeTest
-		c. @AfterTest
+		b. @BeforeTest - run once prior all test present in class during single session.
+		c. @AfterTest - run once after all test executes in class during single session.
 		d. @BeforeClass
 		e. @AfterClass
 		f. @dataProvider
-		h. @BeforeMethod
-		i. @AfterMethod.
+		h. @BeforeMethod - run before each test 
+		i. @AfterMethod. - run after each test
 		
 	4. allow automation tester to generate reports.
 		a. normal report (html)
@@ -693,15 +695,64 @@ xpath of first header row
 		2. single test to single browser
 		3. parallel execution
 	
-	6. Testng class doesn't have main method unlike java class.
+	6. TestNG class doesn't have main method unlike java class.
 	
  	
  	
+ 	Scenario's
+ 	
+ 	1. Search the Phone
+ 	2. SelectPhoneandAddToCart
+ 	3. Checkout
+ 	 
  		 
+ 	Open Chrome
+ 	
+ 	testcase -1
+ 		Launch facbook
+ 		fetch title
+ 		
+ 	testcase-2	
+ 		Launch Myntra
+ 		fetchtitle
+ 		
+ 	testcase-3	
+ 		Launch Google
+ 		fetch title
+ 		
+ 	Close browser
+ 	
+ 	==============================
+ 	
+ 	
+ 	
+ 	Open Chrome
+ 	
+ 	execute test-1
+ 	
+ 	Close Chrome
+ 	
+ 	
+ 	
+ 	Open Chrome
+ 	
+ 	execute  test-2
+ 	
+ 	Close Chrome
+ 	
+ 	
+ 	Open Chrome
+ 	execute test-3
+ 	close Chrome		 
  		 
- 		 
- 		 
- 		 
+ 	
+ 	What is parameterization?
+ 	When you have to validation same functionality with multiple time with different or same set of data	
+ 	
+ 	Examples:  - TestData.
+ 	1. Loginpage -- 1000
+ 	2. place an order over amazon - 100
+ 	3. validate application url is broken or not 
  		 	
  	
  	
