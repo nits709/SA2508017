@@ -123,7 +123,16 @@ d.	Display the status
 	3. click on each element and get the text from alert and accept alert
 	4. repeat  first 1,2,3 steps until completes.		 
 
-24. Explore before and after Class anotation implement in scenario.	
+24. Explore before and after Class anotation implement in scenario.
+	
+25. Open orangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	try to login with dataprovider upto maximum 2 times 
+
+26. pick any websites 
+	user hard assertion and soft assertion 
+	to check element isDisplayed
+	to check the url
+	to check the titleofthepage 
 	
    
    

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite">
+	<test name="MyFirstTest">
+		<classes>
+			<class name="testNG_Demos.TNG_02_Priority" />
+			<class name="testNG_Demos.TNG_08_DataProvider" />
+			<!-- <class name="testNG_Demos.TNG_08_DataProvider" />
+			<class name="testNG_Demos.TNG_08_DataProvider" /> -->
+		</classes>
+	</test>
+</suite>

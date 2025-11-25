@@ -680,15 +680,15 @@ xpath of first header row
 		a. @Test -> means testcase | testng treated that method as testcase.
 		b. @BeforeTest - run once prior all test present in class during single session.
 		c. @AfterTest - run once after all test executes in class during single session.
-		d. @BeforeClass
-		e. @AfterClass
-		f. @dataProvider
+		d. @BeforeClass -
+		e. @AfterClass -
+		f. @dataProvider - iterator single test with multiple set of data.
 		h. @BeforeMethod - run before each test 
 		i. @AfterMethod. - run after each test
 		
 	4. allow automation tester to generate reports.
-		a. normal report (html)
-		b. extent-Report (html)	
+		a. normal report (html) - default report present in testng
+		b. extent-Report (html)	 | generate via thirdparty library.
 		
 	5. 	Cross browser testing - one by one , parallel
 		1. single test to run of multiple browser
@@ -754,8 +754,116 @@ xpath of first header row
  	2. place an order over amazon - 100
  	3. validate application url is broken or not 
  		 	
+ 	===================================================================================================================
+ 	
+ 	requirement to buy car 
+ 	1. budget - finance --> insurance or cash.
+ 	2. brand
+ 	3. Model
+ 	4. color
+ 	5. feature
+ 	
+ 	1. scenario  -- color change  --           Medium 	  | Low
+ 	2. scenario  -- problem with engine - critical 		  | Very High
+ 	3. Scenario  -- car lights are not working - Major 	  | Major
+ 	4. Sceanrio  -- car gates are not working - critical. | Very High
+ 	
+ 	==================================================================
+ 	
+ 	validating login functionality
+ 	
+ 	1. Open browser
+ 	2. checking company logo
+ 	3. valid username and password | not at all login -- | critical | critical
+ 	4. user landed on homepage
+ 	5
+ 	6
+ 	7
+ 	8
  	
  	
+ 	
+ 	
+ 	Functionality of application | 
+ 	
+ 	1. Open browser
+ 	2. checking company logo (words is missing in company logo) |   High  |   Medium  
+ 	3. valid username and password | all login
+ 	4. user landed on homepage
+ 	5
+ 	6
+ 	7
+ 	8
+ 	
+ 	
+ Assertions. (checkpoints)
+ Assertion can be acheived by using Hard and soft assert in selenium webdriver.
+ 	
+ hard Assertions -  checks the conditions and value if matches it passes the condition else false and stop execution 
+ 					immidiatly
+ 					
+ in selenium webdriver, putting hard assert , use hard assertion method from Assert class (static)					
+ 
+ SoftAssertion - checks the condition and value if matches it passes else it collects all error and log into reports
+ 				 after test execution overs	
+ 				 
+ in selenium webdriver, putting Soft assert , use soft assertion method from SoftAssert class	
+ 
+ Assert
+ 	1. assertTrue	 - Assert.assertTrue("exceptedCodition","actualcondition")	 
+ 	2. assertEquals - Assert.assertEquals("ExpectedString","ActualString")
+ 	
+ SoftAssert
+ 	1. assertTrue - assertTrue("exceptedCodition","actualcondition")
+ 	2. assertEquals	- assertEquals("ExpectedString","ActualString")
+ 	
+ 	assertAll(); this would log into reports.
+ 	
+ 	
+ 
+ testNG.xml	
+ 	. 1. execute single testcases.
+ 	  2. execute multiple testcases.
+ 	  3. execute multiple testcases from different classes.
+ 	  4. how to exclude or include - single testcases.
+ 	  5. execute testcases belong to different -groups (smoke, regression)
+ 	  6. execute all testcases in parallel.
+ 	  
+ step number-1
+ 
+ 	we need to create file -- testNG.xml
+ 	to run --> right click on file --> select -- testng suite
+ 	
+ 	
+ 	
+1.  follow below xml to execute all test present in class
+ 		  
+ <?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite">
+	<test name="MyFirstTest">
+		<classes>
+			<class name="testNG_Demos.TNG_LoginScripts" />
+		</classes>
+	</test>
+</suite>
+
+
+============================================================================
+2. below xml code runs single testcases from the testngclass
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite">
+	<test name="MyFirstTest">
+		<classes>
+			<class name="testNG_Demos.TNG_LoginScripts" />
+			<methods>
+				<include name="loginApplicationWithValidData" />
+			</methods>
+		</classes>
+	</test>
+</suite>
  	
  	
  	

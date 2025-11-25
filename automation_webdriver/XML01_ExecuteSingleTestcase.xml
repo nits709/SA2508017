@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite">
+	<test name="MyFirstTest">
+		<classes>
+			<class name="testNG_Demos.TNG_LoginScripts" />
+			<methods>
+				<include name="loginApplicationWithValidData" />
+				<include name="loginApplicationWithIValidUsernameData" />
+			</methods>
+		</classes>
+	</test>
+</suite>

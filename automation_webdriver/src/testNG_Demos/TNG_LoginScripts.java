@@ -20,7 +20,7 @@ public class TNG_LoginScripts extends baseFunction {
 		quitBrowser();
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void loginApplicationWithValidData() {
 		driver.findElement(By.id("username")).sendKeys("student");
 		driver.findElement(By.id("password")).sendKeys("Password123");
@@ -31,7 +31,7 @@ public class TNG_LoginScripts extends baseFunction {
 		driver.findElement(By.xpath("//*[@id=\"loop-container\"]/div/article/div[2]/div/div/div/a")).click();
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void loginApplicationWithInValidData() {
 		driver.findElement(By.id("username")).sendKeys("student");
 		driver.findElement(By.id("password")).sendKeys("Password123");
@@ -42,7 +42,7 @@ public class TNG_LoginScripts extends baseFunction {
 		driver.findElement(By.xpath("//*[@id=\"loop-container\"]/div/article/div[2]/div/div/div/a")).click();
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void loginApplicationWithIValidUsernameData() {
 		driver.findElement(By.id("username")).sendKeys("student");
 		driver.findElement(By.id("password")).sendKeys("Password1234");

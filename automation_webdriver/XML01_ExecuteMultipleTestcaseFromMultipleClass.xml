@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite">
+	<test name="MyFirstTest">
+		<classes>
+			<class name="testNG_Demos.TNG10_groupingTestcases" />
+		</classes>
+		<groups>
+			<run>
+				<include name="Sell"></include>
+			</run>
+		</groups>
+	</test>
+</suite>
