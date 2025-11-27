@@ -134,6 +134,15 @@ d.	Display the status
 	to check the url
 	to check the titleofthepage 
 	
+	
+27. Open https://www.quikr.com/
+		a. pick any section and get the text from link
+		b. right text of links into excelFile.
+
+28. Create any excel file with multiple Data 		
+    a. then read it. with POI library.
+		
+	
    
    
    

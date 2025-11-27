@@ -917,6 +917,90 @@ how to work with properties files
 	afterClass
 	afterTest
 	afterSuite
+	
+	
+	
+	DataDriven Approach | in Automation.
+	1. testscripts are driven by testData.
+	
+	DataDriven Scenario with ExcelFiles.
+	1. reading the data from excel file to execute testcase/scripts/ functionality.
+	2. to open multiple URL and validate the title of page and links are not breaking then 
+	   write the URL into excel
+	3. get the data (scorecard webtable) same need to write into excel file
+	4. placing order in ecommerce website and capture the orderID and write into excel file  
+	
+	2 types of operation can be done with Excel
+	1. write into excel file
+	2. read data from excel file. 
+	
+	
+	
+	
+	Excel file  not an open source.
+	
+	Location to download with maven project.
+	1. navigate mvn repository
+	2. POI jars
+	3. add depenedency into pom.xml
+
+=========================================================================	
+	location to download with java project.
+	1. navigate to https://archive.apache.org/dist/poi/release/bin/
+	2. look for poi-bin-5.2.3-20220909.zip
+	3. click on poi-bin-5.2.3-20220909.zip   (jars will download automatically) 
+	
+	
+	Excel --> workbook (POI)
+	
+	Workbook --> sheet -->Rows --> cells/columns
+	
+	1. Create an object File Class
+	2. Create an Object FIS/FOS --FileInputStream /FileOutputStream
+	3. Create an object of Workbook
+	4. Create a reference of Sheet
+	5. Create a reference of Rows
+	6. Create a reference of Cell/Column
+	
+	1. FileInputStream   --> reading the data from file
+	2. FileOutputStream  -->  writing the data into file
+	
+	
+	Type of excel file extension.
+	1. .xls excel file version between from 97-2003 (MS office)
+	2. .xlsx after MS Office 2007
+	
+	
+	1.     .xls   HSSFWorkbook | out dated now (no one is using this)
+	2.     .xlsx  XSSFWorkbook | Currently in user everywhere.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
  	
  	
  	
