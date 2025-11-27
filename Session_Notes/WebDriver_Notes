@@ -866,6 +866,57 @@ xpath of first header row
 </suite>
  	
  	
+Tillnow, we have achieved parameterization with array 
+1. internally --> array[]
+2. externally --> read the any file, xml, excel, json, properties.	
+
+
+how to work with properties files
+1. Create object of the file class.
+2. supply the filepath to this file class
+3. When ever we read data from external files, java will read the data
+	in streams, streams is a one type of channel in which data flows.
+4. Create an object of fileInputStream class (reading scenario.)/fileOutputStream
+5. 	
+
+ Webdriver - interface
+ javascriptExecutor
+ WebElement
+ Alert
+ TakesScreenShot
+ 
+ 
+ What is Maven?
+ Maven is build automation tool and project management tool.
+ no need to download the jars manually.
+ Maven fetch these jar automatically for us and configure in the project.
+ In every Maven project, POM.xml
+ 
+ 1. tester will make an enteries of the jars - dependencies.
+ 	Selenium-webdriver
+ 	testng
+ 	Extent-report
+ 	exceljars
+ 	
+ 	
+ 	Maven has central location over internet.| mvnrepository.com
+ 	
+ 
+ 
+ 	Order of testng anotations
+ 	
+ 	beforeSuite
+	beforeTest
+	beforeClass
+	beforeMethod
+	testA
+	afterMethod
+	beforeMethod
+	testB
+	afterMethod
+	afterClass
+	afterTest
+	afterSuite
  	
  	
  	
