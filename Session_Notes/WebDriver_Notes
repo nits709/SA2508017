@@ -976,6 +976,62 @@ how to work with properties files
 	
 	
 	
+===========================================
+1. JavaScriptExecutor. - Scroll functionality in seleniun
+2. Generate Extent report
+	1. Simple extent Report
+3. KeyWordDriver approach
+4. Listner
+5. what groupID and ArtifactID in maven.
+
+
+JavascriptExecutor Scroll in selenium
+1. scroll the page from one position to another position
+2. scroll into the element
+3. scroll the page based on co-ordinates.
+
+
+
+
+What is keyword Driven Approach
+1. keyword driven is an automation testing approach where tester are write test steps using keywords instead
+	of code
+	
+	Example
+	Open theBrowser
+	navigate to url
+	enter the username
+	enter the password
+	click on button
+	verify the messages
+	close the browser
+	
+	
+	Each Keyword = action
+	1. openBrowser
+	2. navigate
+	3. type
+	4. click
+	5. verifyText
+	6. closeBrowser
+	
+	
+	The automation framework already know what each keyword means- so the tester only arranges the
+	keywords in order (In excel file)
+	
+	Testers decide what to do -----> Framework decide How to do.
+	
+	
+	
+	1. ExcelFile - Done
+	2. Logic that read excelfile. - Done
+	3. ActionKeyword
+	4. Testcases from where i run my Tc's
+	
+	
+	
+
+	
 	
 	
 	
