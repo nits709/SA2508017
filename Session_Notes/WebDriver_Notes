@@ -1029,6 +1029,166 @@ What is keyword Driven Approach
 	4. Testcases from where i run my Tc's
 	
 	
+	Cucumber.
+	----------------------------------------------
+	BDD.
+	
+	TDD - Test Driven Development.
+	
+	
+	BDD - Behavioral driven development
+	BA,Tester, Developer, Some time designer will gather the requirement(HLD/LLD)
+	Requirement will be shared with QA Team, and QA team will create Feature file
+	(First Component) - (Collection of test scenario's)
+	Then This feature file share with 
+	1. Developer - so that developer creates the application
+	2. Manual tester - so that manual tester creates the testcases.
+	3. Automation tester- so that he/she will create an automation scripts.
+	
+	
+	automation scripts
+	.
+	Feature File
+		login successfully - scenario.
+		
+	Second Component - Step definition/ Glue code.	 (java class)
+	
+	Third component - For execution fo steps definition (Automation script) tester uses Runner
+	Class
+	
+	
+	Feature file --> steps definition (java file) --> Runner file (for scripts execution)
+	
+	Cucumber -> BDD
+	
+	
+	-------------------------------------
+	Create cucumber project (1st step)
+	1. File -> New --> Maven Project
+	2. Select 3rd checkbox --> Next button
+	3. type  io.cucumber  and select same --> next
+	4. Enter archtype  and groupID - "myCucumberProject" -- finish.
+	5. In pom.xml
+			from line number 12. to 67 select the lines and hit delete/backspace button (to remove existing entires)
+			
+	6. paste below depenedencies in pom.xml
+		
+		
+		<properties>
+				<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+				 <java.version>11</java.version>
+				<junit.version>4.13.1</junit.version>
+				<cucumber.version>6.8.2</cucumber.version>
+				<cucumber.version>6.9.0</cucumber.version>
+			</properties>
+		<dependencies>
+			<!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java  -->
+			<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.28.1</version>
+			</dependency>
+			<dependency>	
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+</dependency>
+<dependency>
+<groupId>io.cucumber</groupId>
+<artifactId>cucumber-junit</artifactId>
+<version>${cucumber.version}</version>
+<scope>test</scope>
+</dependency>
+<dependency>
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>${junit.version}</version>
+<scope>test</scope>
+</dependency>
+</dependencies>		
+	
+	
+	7. to download cucumber plugins.
+		go to -- help --> eclipse marketplace -- type cucumber --> click on install button.
+		(please restart eclipse after installtion)
+		
+		
+		first component of BDD
+		1. Feature File (Test suite)
+				a. Collection of test scenario's
+				b. Create a test scenario/test cases by using By gherkin langugage.
+				c. file must have ending with extension ".feature"
+				d. 	Keyword in gherkin (register.feature)
+						Feature: represenation of requirement (this file contains behavior of registeration page)
+						Scenario: Test Objective
+						Given: pre-conditions
+						When: steps to follow (test steps)
+						And: add mulitple test steps
+						Then: to check expected conditions
+						Examples:
+						Scenario outlines:
+		
+		2. Second Component of BDD (StepDefinition file) Glue code.
+				a. Normal java file
+				b. have method which satisfied the steps mentioned in feature file
+				c. cucumber method : (Given, When, Then, And)
+				d. WebDriver code (Logic) 
+				
+				
+				
+		first scenario
+		validate google search
+		1. Open Google
+		2. Read Title
+		3. Enter String
+		4. Click button
+		5. Validate search 		
+		
+		
+		principle working with cucumber project
+		1. feature file will be keep at src/test/resources
+		2. feature --> stepDefinition
+		
+							
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+	
+	
 	
 
 	
