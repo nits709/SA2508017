@@ -1152,8 +1152,42 @@ What is keyword Driven Approach
 		
 							
 		
-		
+		Tags in cucumber
+		1. Tags in cucumber use to execute testcases(scenario's)	
+		2. Tags heps to group or filter the scenario
+		3. with tags
+			a. run single testcases
+			b. run multiple testcases
+			c. skip multiple/single testcases
+		4. Tags defined in feature file only (to see tags impact , testcases should be ran from runner file )
+		5. @- special character, @smoke, @sanity, @login, @checkout, @payment
+		6. tag conditions defined in runner files.	
+			
 
+==========================================================================================
+
+
+		How to get below mention scenario in cucumber Hooks (anotations)
+
+		1. Before similar like BeforeMethod of testNG
+		2. After similar like AfterMethod of testNG
+		run to some line of code prior to my each test scenario
+		run some line of code after my each test run
+		
+		
+		@BeforeTest or BeforeMethod
+		@AfterTest or AfterMethod
+		
+		
+		1. reporting - ExtentReport 
+		2. Reporting with listner. 
+		3. PageFactoring
+		4. POM - page object model
+		5. Robot class
+		
+	
+		
+		
 
 
 

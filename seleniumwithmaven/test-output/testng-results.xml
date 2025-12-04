@@ -1,25 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-27T22:29:46 IST" name="Default suite" finished-at="2025-11-27T22:29:46 IST" duration-ms="796">
+  <suite started-at="2025-12-04T22:39:08 IST" name="Default suite" finished-at="2025-12-04T22:39:22 IST" duration-ms="13848">
     <groups>
     </groups>
-    <test started-at="2025-11-27T22:29:46 IST" name="Default test" finished-at="2025-11-27T22:29:46 IST" duration-ms="796">
-      <class name="ExcelFileScenarios.ReadDataFromExcelFile">
-        <test-method is-config="true" signature="setupObjects()[pri:0, instance:ExcelFileScenarios.ReadDataFromExcelFile@41d477ed]" started-at="2025-11-27T22:29:46 IST" name="setupObjects" finished-at="2025-11-27T22:29:46 IST" duration-ms="734" status="PASS">
+    <test started-at="2025-12-04T22:39:08 IST" name="Default test" finished-at="2025-12-04T22:39:22 IST" duration-ms="13848">
+      <class name="extentReporting.TestNG_Extent_Report_Lisnters">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274]" started-at="2025-12-04T22:39:08 IST" name="beforeTest" finished-at="2025-12-04T22:39:18 IST" duration-ms="9439" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupObjects -->
-        <test-method signature="getCompletedDataFromFile()[pri:0, instance:ExcelFileScenarios.ReadDataFromExcelFile@41d477ed]" started-at="2025-11-27T22:29:46 IST" name="getCompletedDataFromFile" finished-at="2025-11-27T22:29:46 IST" duration-ms="26" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="loginApplicationWithValidData()[pri:1, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274]" started-at="2025-12-04T22:39:18 IST" name="loginApplicationWithValidData" finished-at="2025-12-04T22:39:21 IST" duration-ms="3352" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getCompletedDataFromFile -->
-        <test-method is-config="true" signature="closeObject()[pri:0, instance:ExcelFileScenarios.ReadDataFromExcelFile@41d477ed]" started-at="2025-11-27T22:29:46 IST" name="closeObject" finished-at="2025-11-27T22:29:46 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- loginApplicationWithValidData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274]" started-at="2025-12-04T22:39:21 IST" name="afterMethod" finished-at="2025-12-04T22:39:21 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApplicationWithValidData status=SUCCESS method=TestNG_Extent_Report_Lisnters.loginApplicationWithValidData()[pri:1, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeObject -->
-      </class> <!-- ExcelFileScenarios.ReadDataFromExcelFile -->
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginApplicationWithInValidData()[pri:2, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274]" started-at="2025-12-04T22:39:21 IST" name="loginApplicationWithInValidData" finished-at="2025-12-04T22:39:22 IST" duration-ms="299" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='loop-container']/div/article/div[2]/p[1]/strong"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfafbfd3fe969a5b4ea73369d1d357f3, findElement {using=xpath, value=//*[@id='loop-container']/div/article/div[2]/p[1]/strong}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /var/folders/rl/ytnk6vbs63s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58295}, goog:processID: 3305, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58295/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cfafbfd3fe969a5b4ea73369d1d357f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='loop-container']/div/article/div[2]/p[1]/strong"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfafbfd3fe969a5b4ea73369d1d357f3, findElement {using=xpath, value=//*[@id='loop-container']/div/article/div[2]/p[1]/strong}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /var/folders/rl/ytnk6vbs63s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58295}, goog:processID: 3305, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58295/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cfafbfd3fe969a5b4ea73369d1d357f3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at extentReporting.TestNG_Extent_Report_Lisnters.loginApplicationWithInValidData(TestNG_Extent_Report_Lisnters.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplicationWithInValidData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274]" started-at="2025-12-04T22:39:22 IST" name="afterMethod" finished-at="2025-12-04T22:39:22 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApplicationWithInValidData status=FAILURE method=TestNG_Extent_Report_Lisnters.loginApplicationWithInValidData()[pri:2, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginApplicatinoSkipTest()[pri:3, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274]" started-at="2025-12-04T22:39:22 IST" name="loginApplicatinoSkipTest" finished-at="2025-12-04T22:39:22 IST" duration-ms="3" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping my testcases to generate report]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping my testcases to generate report
+at extentReporting.TestNG_Extent_Report_Lisnters.loginApplicatinoSkipTest(TestNG_Extent_Report_Lisnters.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplicatinoSkipTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274]" started-at="2025-12-04T22:39:22 IST" name="afterMethod" finished-at="2025-12-04T22:39:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApplicatinoSkipTest status=SKIP method=TestNG_Extent_Report_Lisnters.loginApplicatinoSkipTest()[pri:3, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:extentReporting.TestNG_Extent_Report_Lisnters@28701274]" started-at="2025-12-04T22:39:22 IST" name="afterTest" finished-at="2025-12-04T22:39:22 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- extentReporting.TestNG_Extent_Report_Lisnters -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

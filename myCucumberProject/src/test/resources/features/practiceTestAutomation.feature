@@ -1,7 +1,6 @@
 Feature: login scenario
 
 
-
 #Scenario: to validate practice automation login functionality
 #Given The user launch the application url "https://practicetestautomation.com/practice-test-login/"
 #When The user enter username "student"
