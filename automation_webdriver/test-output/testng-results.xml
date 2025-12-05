@@ -2,28 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-26T21:45:36 IST" name="Default suite" finished-at="2025-11-26T21:45:50 IST" duration-ms="13919">
+  <suite started-at="2025-12-05T21:05:22 IST" name="Default suite" finished-at="2025-12-05T21:05:41 IST" duration-ms="18932">
     <groups>
     </groups>
-    <test started-at="2025-11-26T21:45:36 IST" name="Default test" finished-at="2025-11-26T21:45:50 IST" duration-ms="13919">
-      <class name="WebDriver_Actions.SA_38_HandlingPropertiesFile">
-        <test-method is-config="true" signature="setupPropertiesObject()[pri:0, instance:WebDriver_Actions.SA_38_HandlingPropertiesFile@7334aada]" started-at="2025-11-26T21:45:36 IST" name="setupPropertiesObject" finished-at="2025-11-26T21:45:36 IST" duration-ms="19" status="PASS">
+    <test started-at="2025-12-05T21:05:22 IST" name="Default test" finished-at="2025-12-05T21:05:41 IST" duration-ms="18932">
+      <class name="WebDriver_Actions.SA_40_HandlingPageFactory_loginPage">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:WebDriver_Actions.SA_40_HandlingPageFactory_loginPage@3daa422a]" started-at="2025-12-05T21:05:22 IST" name="tearUp" finished-at="2025-12-05T21:05:36 IST" duration-ms="14164" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupPropertiesObject -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:WebDriver_Actions.SA_38_HandlingPropertiesFile@7334aada]" started-at="2025-11-26T21:45:36 IST" name="setupBrowser" finished-at="2025-11-26T21:45:45 IST" duration-ms="9219" status="PASS">
+        </test-method> <!-- tearUp -->
+        <test-method signature="testLogin()[pri:0, instance:WebDriver_Actions.SA_40_HandlingPageFactory_loginPage@3daa422a]" started-at="2025-12-05T21:05:36 IST" name="testLogin" finished-at="2025-12-05T21:05:40 IST" duration-ms="4073" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupBrowser -->
-        <test-method signature="loginApplicationWithValidData()[pri:0, instance:WebDriver_Actions.SA_38_HandlingPropertiesFile@7334aada]" started-at="2025-11-26T21:45:45 IST" name="loginApplicationWithValidData" finished-at="2025-11-26T21:45:50 IST" duration-ms="4488" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebDriver_Actions.SA_40_HandlingPageFactory_loginPage@3daa422a]" started-at="2025-12-05T21:05:40 IST" name="tearDown" finished-at="2025-12-05T21:05:41 IST" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginApplicationWithValidData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:WebDriver_Actions.SA_38_HandlingPropertiesFile@7334aada]" started-at="2025-11-26T21:45:50 IST" name="closeBrowser" finished-at="2025-11-26T21:45:50 IST" duration-ms="149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- WebDriver_Actions.SA_38_HandlingPropertiesFile -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebDriver_Actions.SA_40_HandlingPageFactory_loginPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

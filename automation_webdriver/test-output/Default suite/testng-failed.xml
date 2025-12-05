@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_Demos.TNG_09_Assertions">
+      <class name="WebDriver_Actions.SA_40_HandlingPageFactory_loginPage">
         <methods>
-          <include name="testA"/>
+          <include name="tearDown"/>
+          <include name="testLogin"/>
+          <include name="tearUp"/>
         </methods>
-      </class> <!-- testNG_Demos.TNG_09_Assertions -->
+      </class> <!-- WebDriver_Actions.SA_40_HandlingPageFactory_loginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

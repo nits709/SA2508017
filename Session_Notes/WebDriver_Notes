@@ -1187,12 +1187,21 @@ What is keyword Driven Approach
 		
 	
 		
+		POM - page object model 
+		1. PageFactory - Selenium support class mainly implement to design POM (Optional)
+		2. WithoutPageFactory.
+
+
+
 		
-
-
-
-
-
+	1. WithoutPagefactory
+	2. RobotClass
+	3. Queries
+	
+	
+	1. HybridFramework -- 
+		POM + Cucumber
+		POM + testNG
 
 
 
