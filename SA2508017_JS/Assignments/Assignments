@@ -1,0 +1,14 @@
+Assignments
+
+1. Create a new JavaScript file named assignment1.js.
+	Declare the following variables using let or const:
+	1. Your name
+	2. Your age
+	3. Whether you are a student (true/false)
+	4.Your height in meters
+	5.A list (array) of your 3 favorite foods
+
+	Create each variables using var,let,const
+
+2. Create a sentence using your variables and print it.	
+3.Create an object containing your information.

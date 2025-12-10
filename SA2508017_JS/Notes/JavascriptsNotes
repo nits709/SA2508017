@@ -1,0 +1,101 @@
+how to run program in VS code
+1. from terminal manually
+2. from extension - code runner
+
+manually
+go to > terminal > New terminal > cd directory name
+node filename(fullyclassified name of file) 
+
+extension
+
+
+
+DataTypes in javascripts.
+
+
+Types of ddatatypes
+1. primitive
+2. non-primitive
+
+primitive - immutable
+1. Number
+2. String
+3. Boolean
+4. null
+5. Undefined
+6. BigInt (Not use)
+7. Symbol(not use)
+
+Non-primitive
+1. Object - Person, pen, living 
+2. Array[]
+
+
+variables - in javascripts what is role of variables. can hold value which can be used in prgram or changed it later on.
+
+Types of variables
+1. var - var variableName
+    scope - functions, variables- local/global, block - if, else, switch, try, catch
+    function - if user declared var variable inside the function, scope of that variable would remained withint function only.
+    Global(at class level) - if user declared var variable at global, can access across the class- inside function and out side function. 
+    block - variable declared inside the block(if,else,switch,try,catch) scope would remain within that block only.
+
+    var name = "Nitin"; // variable decalartion and initialization.
+    var name = "sachin"; // re-declaration
+    name = "abhishek"; // re-assigned
+
+    re-declaration and re-allocation/re-assigned is allowed.
+
+2. let - function + block + global
+        let flag = true;
+        let flag = false; // this is not allowed in let keyword | re-decalartion is not allow in let variable
+        flag = false; re-allocation is allowed.
+
+3. const - function + block + global
+        1. re-declaration and re-allocation is not allowed in const.
+        2. const is act as similar as final keyword in java
+
+
+
+
+   JS functions     
+   two types of 
+   1. function declarations - 
+            function functionName(){
+                write body here
+            };
+
+   2. function expression - 
+            1. arrow - ()=> 
+            2. anonymous function (function without name) function();
+
+
+
+     ReferenceError: uName is not defined
+    at Object.<anonymous> (/Volumes/Renuka/Professional Stuff (Restricted)/Session_material/Session_WorkSpaces/SA2508017_Workspace/javaScript_Module/SA2508017_JS/Day_02/variablesInJs.js:39:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49
+
+
+Hoisting
+
+testA();
+
+WebDriver driver;
+BrowserName =" chrome";
+
+
+public void testA(){
+
+openBrowser();
+navigateURL();
+Testlogin();
+QuiteBrowser();
+
+
+}
+
