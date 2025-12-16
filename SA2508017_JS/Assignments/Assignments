@@ -12,3 +12,16 @@ Assignments
 
 2. Create a sentence using your variables and print it.	
 3.Create an object containing your information.
+4. print sum of 100 natural number
+5. Write a js code to validate number is positive 	or   	negative
+
+6. Write a js code to validate number is even or odd
+7. write a js code to validate any prime number
+8. write a js code to evaluate day
+   1=monady
+   7=sunday
+9.write a js code for grade mechanism
+	marks are greater than or equal to 70=A
+	marks are greater than or equal to 60=B
+	marks are greater than or equal to 40=c
+	otherwise fail

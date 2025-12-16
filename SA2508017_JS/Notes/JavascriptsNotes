@@ -97,5 +97,56 @@ Testlogin();
 QuiteBrowser();
 
 
+condition are in javascripts
+1. simple if(true)
+2. if-else (true/false)
+3. ladder if (Multiple validation) | if-elseif, elseif
+4. nestedif (Multiple validation.)
+5. switch case
+
+condition in javascript to check control flow of code execution.
+
+
+y need loops
+1. console.log("Hello")
+1. console.log("Hello")
+1. console.log("Hello")
+1. console.log("Hello")
+1. console.log("Hello")
+1. console.log("Hello")
+1. console.log("Hello")
+1. console.log("Hello")
+
+for(intialization;condition;+++/---){
+//code
+}
+
+while
+dowhile
+for()
+
+
+Functions in javascript
+1. function is nothing just reusable block of the code 
+can be create for specific tasks
+    a. function declaration - write the function with its name
+            function functionName(){
+                //body of function.
+            }
+
+    b. function expression -  write the function without its function name - 2016
+            a. anonymous function 
+                function(){
+                    //body of function
+                }
+            b. arrow function
+                ()=>{
+                    //function body
+                }
+
+
+
+
+
 }
 
