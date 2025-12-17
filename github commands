@@ -1,0 +1,12 @@
+open terminal from github desktop app.
+
+git init   -- initial git into specific folder from cmd
+git remote add origin https://github.com/nits709/SA2411063.git  - make sync with repository
+git status - to check git status 
+git add . - add files to repository
+git branch - tell repository pointer to which branch
+git commit -m "JS"  -- to commit files into branch
+git branch javascript  -- create orphan branch
+git push -u origin javascript  -- push commit into remote branch
+
+
