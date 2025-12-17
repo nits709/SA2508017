@@ -142,11 +142,32 @@ can be create for specific tasks
             b. arrow function
                 ()=>{
                     //function body
-                }
-
-
-
-
+                    }
 
 }
 
+1. callBack Function?
+    call back function in js is a function that is passed as an argument to another function    
+
+
+
+
+public void main(String[] args){
+    syso("Inside Main Function")
+    //code
+   executeCar(startCar);
+}
+
+public void startCar(){
+    syso("car is starting")
+}
+
+
+public void executeCar(){
+    //code
+}
+
+Booking a cab
+1. You a book a cab
+2. You give the address
+3. The driver calls me when he arrives //callback
