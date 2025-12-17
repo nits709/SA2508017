@@ -11,6 +11,9 @@ public class LoginPage_WPF {
 	final static By passwordField = By.name("username");
 	final static By loginButton = By.xpath("//*[@id='app']/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button");
 
+	
+	
+	
 	// action/method of loginpage
 	public void testLogin(String username, String password) {
 		try {
@@ -22,4 +25,5 @@ public class LoginPage_WPF {
 
 		}
 	}
+	
 }
