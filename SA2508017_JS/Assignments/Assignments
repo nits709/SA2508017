@@ -29,3 +29,24 @@ Assignments
 10.  try pop() and shift() - 
 11. try function slice() and indexof() - 
 12. Imagin a person teaching 
+13. /// write code achieve runtime polymorphism in JS
+14. Write a function to add two numbers.
+15.Write a function that checks if a number is even or odd.
+16.Write a function that returns the factorial of a number.
+17.Write a function that reverses a string.
+18.Write a function to find the largest number in an array.
+19. Write a function to sum all elements in an array.
+20. Write a function to remove duplicates from an array.
+21.Write a function to sort an array in ascending and descending order.
+22.Write a function to find the second largest number in an array.
+23.Write a function to count the number of occurrences of each element in an array.
+24Create a Car class with properties like make, model, and year. Add a method to display its details.
+25.Create a BankAccount class with methods to deposit, withdraw, and check balance.
+26.Create a Book class with a method to display book info and a method to mark it as read.
+27.Create a Rectangle class with methods to calculate area and perimeter.
+28.Create a Person class with a method that returns their full name and age.
+29.Create a class Student that stores grades in an array. Add methods to add a grade, calculate average, and print info.
+30.Create a class ShoppingCart with methods to add items (object with name and price), remove items, and calculate total cost.
+31.Write a function that takes an array of Person objects and returns a list of all names sorted alphabetically.
+32.Write a function that filters out students with an average grade less than 50 from an array of Student objects.
+33.Create a Library class that contains an array of Book objects and methods to add, remove, and list all books.
