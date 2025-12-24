@@ -1,0 +1,90 @@
+Introduction of Cypress.
+1. Front End web based automation tool.
+2. Its tool to test modern web based application (websites uses angularJS and reactJS frameworks)
+3. Cypress capable to automate any applciation which runs over browser.
+4. Cypress support only 2 langugage binding - Javascript and TypeScript
+5. Cypress doesnt; hold selenium library its completely different from selenium.
+6. Cypress is an opensource - tool
+		1. Cypress Runner - Open Sources (80% of automation tasks, writing , reading, executing, creating custom function etc.)
+		2. Cypress dashboard - testcases maintence , parallel execution come with paid version of cypress.
+7. Cypress run on node.js environment (similar like selenium runs on jDK/JRE).
+
+Who, can use cypress ? 
+1. Initially dev team uses cypress - unit, integration
+2. QA has strted using cypress
+		1. E2E
+		2. API testing 
+		3. Accessibility testing (paid).
+
+Difference between selenium vs Cypress.		
+
+Main Feature of Cypress?
+1.  Time travel ---> Capture screenshot of each steps
+2.  Automatic Waits --> 
+3.  Consistence (Flaky Test in selenium)
+4.  ScreenShot and video capturing feature is avilable in cypress (inbuilt)
+5.  Cross browser testing
+
+
+Limitation of cypress?
+1. cannot automation desktop based application
+2. Limited supports 
+3. Supports availble only for javascripts and type script
+4. reading and writing data from external files is difficult
+5. Third party support is not available. 
+
+
+Commands to install and open cypress
+1. npm install cypress 
+2. npx cypress open - to run testscript from cypress UI
+
+
+how to run the test from terminal or CMD
+1. npx cypress run -- runs tests from cypress...
+	bydefault - cypress runs the testscript on elctron browser with headless mode.
+2. npx cypress run --headed | this execute scripts on browser without headless mode on.
+3. npx cypress run --headed --browser "browsername"
+4. runs specific spec file in cypress from terminal
+5. viewport
+6. capture the video of testexecution. -
+		bydefault video feature is disable, we need to enable
+		video can capture from terminal only...
+
+
+
+Locators
+=====================
+
+ cypress supports cssselector only.
+
+
+
+execute below command - get permission on powershell
+1. Set-ExecutionPolicy -scope CurrentUser -ExecutionPolicy RemoteSigned
+2. hit enter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

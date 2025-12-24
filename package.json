@@ -1,0 +1,14 @@
+{
+  "name": "cypress_module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitin Gupta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^15.8.1"
+  }
+}
