@@ -56,6 +56,34 @@ Locators
 =====================
 
  cypress supports cssselector only.
+ cy.get([tagname='value'])
+ cy.get(.className) // className - "."
+ cy.get(#Idname) // id - #
+				//^, $,*	
+
+
+locators - contains.
+Real Application
+1. ID's are missing or dynamic in nature
+2. class structure is getting changes on every releases
+3. text on element is stable through out releases
+
+Syntax 
+1. cy.contains('element text')
+2. cy.get(selector).contains(element text)
+
+on which type of element contains applicable
+1. Button
+2. links
+3. Label
+4. Heading
+5. Any element with text.
+
+Key Behavior of contians locator
+1. 
+
+
+
 
 
 
@@ -65,8 +93,13 @@ execute below command - get permission on powershell
 
 
 
+Assignments
+1. Write automation scripts by using css selector with all possible expression
+	specialcharacter
 
 
+
+handpick the testcase for execution in cypress use "only" 
 
 
 
