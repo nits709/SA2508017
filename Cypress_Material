@@ -79,12 +79,36 @@ on which type of element contains applicable
 4. Heading
 5. Any element with text.
 
-Key Behavior of contians locator
-1. 
+Children(); 
+used to get immideate child elements from selected parent element in dom
+1. Moves one level down
+2. Children function does not help to get grandchild elements
+3. Returns collections of elements
+
+Find()
+is used to locate child ,grandchild etc elements from selected parent element in dom
+1. search inside the element
+2. Goes multiple levels deep
+3. Returns collection of elements
 
 
+scenario:
+go and find number of checkbox present on page and create re-usable in selenium +java 
+look for pen checkbox and click on it
+
+filter();
+works on certain condition
+1 8 checkbox
+2. checkbox - which value is eq to pen
 
 
+Assertions in Cypress: - Mocha, Chai
+1. Implicit Assertions - inbuild assertions
+		a. should - functions
+		b. and - functions
+2. Explicit Assertions
+		a. assert() - TDD - Test Driven Development
+		b. expect() - BDD - Behavior driven development
 
 
 execute below command - get permission on powershell
@@ -96,7 +120,8 @@ execute below command - get permission on powershell
 Assignments
 1. Write automation scripts by using css selector with all possible expression
 	specialcharacter
-2. Automate orangeHRM website by each locators, contains, get, xpath	
+2. Automate orangeHRM website by each locators, contains, get, xpath
+3. Automate radio button - of any websits | https://testautomationpractice.blogspot.com/	
 
 
 
