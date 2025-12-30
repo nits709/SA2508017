@@ -10,6 +10,7 @@
   "description": "",
   "devDependencies": {
     "cypress": "^15.8.1",
+    "cypress-mochawesome-reporter": "^3.8.4",
     "cypress-xpath": "^2.0.1"
   }
 }

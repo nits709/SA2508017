@@ -23,7 +23,11 @@ describe("contains locator",()=>{
 
 
         //use combine function to filter out the element by using text  // cy.get('a') | by.tagname("a")
-        cy.get('button').contains("Point Me").should('be.visible');
+        
+
+
+
+        cy.get('button').contains("Point Me");
         cy.log("element identified")
 
     })

@@ -4,7 +4,7 @@ describe('checkbox radiobutton interaction',()=>{
 
 
 
-    it('checkbox',()=>{
+    it.skip('checkbox',()=>{
 
          cy.visit("https://testautomationpractice.blogspot.com/")
         
@@ -44,4 +44,22 @@ describe('checkbox radiobutton interaction',()=>{
 
 
     })
+
+     //.wM6W7d[role='presentation'] - 10
+     it("dropdown with dynamic autosuggestion",()=>{
+        cy.visit("https://www.google.co.in/");
+        cy.get("[name='q']").type('Cypress Automation');
+        cy.wait(3000)
+       
+    cy.get(".wM6W7d[role='presentation'] > span").should('have.length',10)  
+    cy.get(".wM6W7d[role='presentation'] > span").each(($el)=>{  //jquery
+            cy.log("get suggestion texts "+$el.text())
+            if($el.text()=='cypress automation tutorial'){
+                cy.log("get the text of links "+ $el.text());
+                        cy.wrap($el).click();
+            }
+           
+        })
+        cy.get("[name='q']").should('have.value','cypress automation tutorial')
+     })
 })

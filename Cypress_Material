@@ -72,6 +72,16 @@ Syntax
 1. cy.contains('element text')
 2. cy.get(selector).contains(element text)
 
+
+cy.contains("Nitin") -----10 element matching node with nitin text 
+              called button - Nitin  -- at index 6th
+              called links - Nitin
+              called Label - Nitin
+              Heading - Nitin
+
+tagname attrbitue
+button attribute text  | cy.get("button").contains("text of element").should("be.visible")
+
 on which type of element contains applicable
 1. Button
 2. links
@@ -116,12 +126,34 @@ execute below command - get permission on powershell
 2. hit enter
 
 
+contains() - identified locator by using text present on element
+
+
+
+What are type of dropdown in automation?
+1. Select tagname
+2. without select tagname - bootstrap by design div, span etc..
+
+in cypress we have select method  which accepts . index, text and value of dropdown options
+
+hooks - certain code of block which require to be executed mulitple or single time prior each test runs
+
+1. before() - this block of code run once before all testcases runs are present inside the describe - test suites
+2. after() - this block of code runs once after all testcases runs are present inside the describe 
+3. beforeEach() - Runs  before each testcases which are present in describe block
+4. afterEach() - runs after each testcases which are present in describe block
+
+navigations commands
+cy.go('back')
+cy.go('forward')
+cy.refresh()
 
 Assignments
 1. Write automation scripts by using css selector with all possible expression
 	specialcharacter
 2. Automate orangeHRM website by each locators, contains, get, xpath
 3. Automate radio button - of any websits | https://testautomationpractice.blogspot.com/	
+4. automate mulitple handling selenium assigment in cypress.
 
 
 
@@ -130,7 +162,29 @@ handpick the testcase for execution in cypress use "only"
 
 
 
+Reports -- below commands would executes in visual studio
+1) install cypress-mochawesome-reporter
+    npm i --save-dev cypress-mochawesome-reporter
 
+2) Change cypress reporter & setup hooks
+   Edit config file (cypress.config.js by default)
+
+    const {defineConfig} = require("cypress");
+    module.exports =defineConfig({
+      reporter: 'cypress-mochawesome-reporter', //for html reports
+      e2e: {
+        setupNodeEvents(on, config){
+          //implement node event listeners here
+        require('cypress-mochawesome-reporter/plugin')(on); //for html report
+        },
+      },
+    })
+
+ 3) Add to cypress/support/e2e.js
+    import 'cypress-mochawesome-reporter/register';
+
+ 4) run cypress
+    npx cypress run --spec cypress\e2e\MyTest.cy.js(full qualified path of your testcase file)  
 
 
 
