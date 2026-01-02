@@ -1,0 +1,112 @@
+Playwright | https://playwright.dev/docs/locators
+------------------------------
+1. playwright is webbased application automation tool like selenium and cypress
+2. playwright supports - webbased application, webmobile browser(Mobile Web Apps - facebook,linkedin etc.) doest not support native app - build on android and iOS operating system.
+3. playwright langugage - java, javascript, typescript, python, .net, c#
+4. playwright invented by microsoft in 2021
+5. Browser supports - Safari (WebKit), chrome (chromium), firefox (WebAssembly)
+6. OS Supported - Windows, Mos, linux - CLI (command line interpreter)
+
+
+Feature of playwright
+1. free and Open Source
+2. Very easy installtion
+4. Functional, API and accessiblity testing
+5. parallel-testing
+6. Auto wait mechanism
+7. Build in assertion (javascript)
+8. Mobile emulates available (virtual devices)
+9. fast
+10. does support iframe and shadow tech.
+
+
+google, facebook, microsoft, apple
+
+
+
+How to run test in playwright
+===============================
+1. npx playwright test |  headless mode | runs all testcases present in tests folder
+2. npx playwright test --headed | run all testcases present in tests folder in headed mode.
+3. to open the reports in playwright | npx playwright show-report
+4. npx playwright test "filename (example.spec.js)" | run specific file testcases.
+5. npx playwright test "filename(example.spec.js)" --headed --project=chromium | run test on specific browser project (chromium, firefox, webkit)
+6. npx playwright test "filename(example.spec.js)" --headed --project=chromium --debug | enable and run the       test in debug mode
+7. npx playwright test --ui | npx playwright test 'filename example.spec.js' --ui  | allow to runs testcase on testruner
+
+
+Selenium --> Client --> Webdriver -- Browser
+Playwright --> Client -->Node.js --> Browser
+
+
+Playwright Architecture explain
+1. Playwright client (TestCode)
+	webscoket ((Events + commands)
+2. playwright core 
+3. browser (Browser native protocols)
+
+InPlaywright, Our test code doesn't talk to the browser directly
+it talks to playwright core Node.js server using websocket (tech)
+That server then talks to the browser using native protocals (CDP/CFP/Webkit)
+Because of this, playwright is fast, stable and automatically handles wait and less flakyness.
+
+
+to create test in playwright, we need to import packages from playwright
+
+import {test,expect} from @playwright/test
+
+java - sychronization 
+javascript - asynchronization
+
+1. console.log('A')
+2. console.log('B')
+3. console.log('C')
+
+
+async: this command tell javascript, we need to wait for few commands to complete there task because they cannot finished immediately
+await:make command wait until it recevies the output from previous commands.
+
+
+
+Locators in playwright
+
+1. css
+2. xpath
+3. property - element would - id, name, link etc.
+
+page.locator('property/xpath/css') || identify the element.
+
+ 	// playwright format
+    //to type the data into input field use fill funciton.
+    await page.locator('[id="loginusername"]').fill("pavanol"); // css format
+    await page.locator('#loginpassword').fill('test@123'); //css format
+    await page.locator('//button[normalize-space()="Log in"]').click(); // xpath
+
+
+    //JS format
+    await page.fill('[id="loginusername"]',"pavanol");
+    await page.fill('#loginpassword',"test@123");
+    await page.click('//button[normalize-space()="Log in"]');
+
+
+Assignment 
+1. look for any website and look for element which have title attribute
+2. automate that element and assert the element visibility.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
