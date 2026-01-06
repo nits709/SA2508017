@@ -4,7 +4,7 @@ import {test,expect} from '@playwright/test';
 test('locators in playwright',async ({page})=>{
     //launch the application URL
     await page.goto("https://demoblaze.com/index.html")
-    const pageTitle = await page.title();
+    const pageTitle = await page.title(); // returns the title() of page | getTitle() selenium
     console.log("page Title "+ pageTitle)
 
     //click on login element using property type locator
