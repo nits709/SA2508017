@@ -113,7 +113,9 @@ To record the script in playwright by codegen follow below commands
 import { test, expect, devices } from '@playwright/test';
 
 test.use({
+    timeout:20000
   ...devices['iPhone 13'],
+
 });
 
 test('test', async ({ page }) => {
@@ -273,8 +275,84 @@ Error: Device descriptor not found: 'XX', available devices are:
   "Desktop Edge"
   "Desktop Firefox"
 
+Assertions in Playwright.
+
+Playwright there are 2 types of Assertions
+1. Hard - auto -wait (will wait until element loads)
+2. Soft - auto - wait (will wait until element loads)
+3. JS based Assertion - (cannot use await keyword | dont uses auto-retry)
+4. playwright assertion use await keyword which bring autowait in elements across scripts
+5. JS based - cannot use await keyword 
+6. PW Assertions
+    1. locators
+    2. page 
+
+    page based Assertions
+    1. on title
+    2. on url
+
+    locators
+    toBeVisible() | checks if the element is display
+    tobeEnable() | to be enabled or not
+    toBeHidden() | element is hidden or not.
+    toBeEditable() | this can use for text field to check field is editable or not
 
 
+    in Selenium 
+    element have text or not
+
+    driver.findElements(By.xpath(''''')).getText();
+
+Assertion	Description
+await expect(locator).toBeAttached()	Element is attached
+await expect(locator).toBeChecked()	Checkbox is checked
+await expect(locator).toBeDisabled()	Element is disabled
+await expect(locator).toBeEditable()	Element is editable
+await expect(locator).toBeEmpty()	Container is empty
+await expect(locator).toBeEnabled()	Element is enabled
+await expect(locator).toBeFocused()	Element is focused
+await expect(locator).toBeHidden()	Element is not visible
+await expect(locator).toBeInViewport()	Element intersects viewport
+await expect(locator).toBeVisible()	Element is visible
+await expect(locator).toContainText()	Element contains text
+await expect(locator).toContainClass()	Element has specified CSS classes
+await expect(locator).toHaveAccessibleDescription()	Element has a matching accessible description
+await expect(locator).toHaveAccessibleName()	Element has a matching accessible name
+await expect(locator).toHaveAttribute()	Element has a DOM attribute
+await expect(locator).toHaveClass()	Element has specified CSS class property
+await expect(locator).toHaveCount()	List has exact number of children
+await expect(locator).toHaveCSS()	Element has CSS property
+await expect(locator).toHaveId()	Element has an ID
+await expect(locator).toHaveJSProperty()	Element has a JavaScript property
+await expect(locator).toHaveRole()	Element has a specific ARIA role
+await expect(locator).toHaveScreenshot()	Element has a screenshot
+await expect(locator).toHaveText()	Element matches text
+await expect(locator).toHaveValue()	Input has a value
+await expect(locator).toHaveValues()	Select has options selected
+await expect(locator).toMatchAriaSnapshot()	Element matches the Aria snapshot
+await expect(page).toHaveScreenshot()	Page has a screenshot
+await expect(page).toHaveTitle()	Page has a title
+await expect(page).toHaveURL()	Page has a URL
+await expect(response).toBeOK()	Response has an OK status
+
+
+  Default timeout in playwright
+  1. Assertion commands - 5000 ms | 5 seconds
+  2. Action Commands - (fill,click,goForward, gobackward etc.) | 3000 ms | 3 seconds
+  3. waitFortimeOut(ms) | Thread.sleep(); | pauses the execution for given time period
+  
+
+  open the url
+  Click on element {timeout:5000}
+  type on text field 
+  click on button
+
+
+  let say i have 20 testcases in 1 file
+  test.use({timeout:20000}) // applies to each of testcases within file.
+
+
+Radio button | checkbox | dropdown
 
 
 
