@@ -1,0 +1,35 @@
+page loaded successfully
+total number of link 44
+A/B Testing
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Add/Remove Elements
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Basic Auth
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Broken Images
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Challenging DOM
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Checkboxes
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Context Menu
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Digest Authentication
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Disappearing Elements

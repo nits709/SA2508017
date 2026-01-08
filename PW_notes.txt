@@ -356,6 +356,17 @@ Radio button | checkbox | dropdown
 
 
 
+Allure report generation commands
+  Report allure
+1. make change in playwright.config.js | reporter: 'allure-playwright',
+2. sudo npm install -D allure-playwright
+3. Then execute any test
+4. generate report - allure generate ./allure-results -o ./allure-report clean
+5. execute this command if step 4 not working - sudo npm install -g allure-commandline --save-dev (optional)
+6. to open allure report | allure open allure-report
+
+
+
 
 
 

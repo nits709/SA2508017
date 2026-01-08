@@ -1,0 +1,42 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - navigation [ref=e4]
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - heading "OMAYO.COM" [level=1] [ref=e11]
+      - paragraph [ref=e12]: Contact us for any business inquiries
+    - generic [ref=e15]:
+      - heading "Contact us" [level=4] [ref=e16]
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: Name
+            - textbox "Name Message" [ref=e23]: nitin
+          - generic [ref=e25]:
+            - generic [ref=e26]: Email
+            - textbox "Email" [ref=e28]: gupta
+        - generic [ref=e31]:
+          - generic [ref=e32]: Phone
+          - textbox "Phone" [ref=e34]: "234567898765432"
+        - generic [ref=e37]:
+          - generic [ref=e38]: Message
+          - textbox [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - img [ref=e47]
+                - checkbox "Verifying..." [active]
+              - generic [ref=e50] [cursor=pointer]: Verifying...
+              - link [ref=e52] [cursor=pointer]:
+                - /url: https://altcha.org/
+                - img [ref=e53]
+            - generic [ref=e58]:
+              - text: Protected by
+              - link "Visit Altcha.org" [ref=e59] [cursor=pointer]:
+                - /url: https://altcha.org/
+                - text: ALTCHA
+          - button " Send" [ref=e61] [cursor=pointer]
+```

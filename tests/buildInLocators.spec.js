@@ -3,7 +3,7 @@ import { test, expect } from 'playwright/test';
 // can access the element from page by using alt text attribute if available
 // nth function is equal to the get function from list in selenium + java
 
-test.skip('getByAlttext', async ({ page }) => {
+test('getByAlttext', async ({ page }) => {
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     const comLogo = await page.getByAltText('orangehrm-logo').nth(1)  // 2 matching node
 
@@ -18,7 +18,7 @@ test.skip('getByAlttext', async ({ page }) => {
 })
 
 
-test.skip('getByplaceHolder | getByText', async ({ page }) => {
+test('getByplaceHolder | getByText', async ({ page }) => {
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
     await page.getByPlaceholder('Username').fill("Admin")
@@ -32,7 +32,7 @@ test.skip('getByplaceHolder | getByText', async ({ page }) => {
     await page.close();
 })
 
-test.skip('getBylabel', async ({ page }) => {
+test('getBylabel', async ({ page }) => {
     await page.goto("https://the-internet.herokuapp.com/login")
     await page.getByLabel('Username').fill('tomsmith');
     await page.getByLabel('Password').fill('SuperSecretPassword!')

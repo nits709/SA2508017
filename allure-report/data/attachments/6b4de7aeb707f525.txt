@@ -1,0 +1,178 @@
+page loaded successfully
+total number of link 44
+A/B Testing
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Add/Remove Elements
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Basic Auth
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Broken Images
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Challenging DOM
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Checkboxes
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Context Menu
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Digest Authentication
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Disappearing Elements
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Drag and Drop
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Dropdown
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Dynamic Content
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Dynamic Controls
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Dynamic Loading
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Entry Ad
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Exit Intent
+Title async title() {
+    return await this._mainFrame.title();
+  }
+File Download
+Title async title() {
+    return await this._mainFrame.title();
+  }
+File Upload
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Floating Menu
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Forgot Password
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Form Authentication
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Frames
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Geolocation
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Horizontal Slider
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Hovers
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Infinite Scroll
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Inputs
+Title async title() {
+    return await this._mainFrame.title();
+  }
+JQuery UI Menus
+Title async title() {
+    return await this._mainFrame.title();
+  }
+JavaScript Alerts
+Title async title() {
+    return await this._mainFrame.title();
+  }
+JavaScript onload event error
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Key Presses
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Large & Deep DOM
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Multiple Windows
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Nested Frames
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Notification Messages
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Redirect Link
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Secure File Download
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Shadow DOM
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Shifting Content
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Slow Resources
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Sortable Data Tables
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Status Codes
+Title async title() {
+    return await this._mainFrame.title();
+  }
+Typos
+Title async title() {
+    return await this._mainFrame.title();
+  }
+WYSIWYG Editor
+Title async title() {
+    return await this._mainFrame.title();
+  }

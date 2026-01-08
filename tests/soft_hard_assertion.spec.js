@@ -1,7 +1,7 @@
 
 import { test, expect } from '@playwright/test';
 
-test.skip('hard', async ({ page }) => {
+test('hard', async ({ page }) => {
 
     await page.goto('https://demoblaze.com/');
     console.log('A')
