@@ -366,6 +366,19 @@ Allure report generation commands
 6. to open allure report | allure open allure-report
 
 
+  Assignments Solutions - references
+  1. assignment - 2 == locators.spec.js
+  2. Assignment - 1 = any (spec.js file)
+  3. Assignment - 3 = handlingAlertsinPW.spec.js
+  4. Assignment -4 = FileUploadInPW.spec.js
+  5. Assignment - 5 = InteractWithMulitpleElements.spec.js
+
+  1. iframe
+  2. how to read data from json file
+  3. show drag n drop funcitonality
+  4. datepicker function - reusable
+  5. AI in testing
+
 
 
 
