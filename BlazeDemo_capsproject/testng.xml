@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BlazeDemo Suite">
+  <test name="All Tests">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="functional"/>
+        <include name="datadriven"/>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.FlightBookingTest"/>
+    </classes>
+  </test>
+</suite>

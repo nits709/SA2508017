@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-20T21:57:35 IST" name="Default suite" finished-at="2026-01-20T21:57:54 IST" duration-ms="19492">
+    <groups>
+    </groups>
+    <test started-at="2026-01-20T21:57:35 IST" name="Default test" finished-at="2026-01-20T21:57:54 IST" duration-ms="19492">
+      <class name="com.blazedemo.tests.flightAppTestcases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.flightAppTestcases@5c33f1a9]" started-at="2026-01-20T21:57:35 IST" name="setUp" finished-at="2026-01-20T21:57:42 IST" duration-ms="7699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_02_searchFlights()[pri:1, instance:com.blazedemo.tests.flightAppTestcases@5c33f1a9]" started-at="2026-01-20T21:57:42 IST" name="TC_02_searchFlights" finished-at="2026-01-20T21:57:44 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_searchFlights -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.flightAppTestcases@5c33f1a9]" started-at="2026-01-20T21:57:44 IST" name="tearDown" finished-at="2026-01-20T21:57:44 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.flightAppTestcases@5c33f1a9]" started-at="2026-01-20T21:57:44 IST" name="setUp" finished-at="2026-01-20T21:57:52 IST" duration-ms="7272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_03_SelectFlight()[pri:2, instance:com.blazedemo.tests.flightAppTestcases@5c33f1a9]" started-at="2026-01-20T21:57:52 IST" name="TC_03_SelectFlight" finished-at="2026-01-20T21:57:54 IST" duration-ms="2315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_SelectFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.flightAppTestcases@5c33f1a9]" started-at="2026-01-20T21:57:54 IST" name="tearDown" finished-at="2026-01-20T21:57:54 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.flightAppTestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
