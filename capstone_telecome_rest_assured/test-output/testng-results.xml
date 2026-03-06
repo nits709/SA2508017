@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-21T22:29:01 IST" name="Default suite" finished-at="2026-01-21T22:29:06 IST" duration-ms="5642">
+    <groups>
+    </groups>
+    <test started-at="2026-01-21T22:29:01 IST" name="Default test" finished-at="2026-01-21T22:29:06 IST" duration-ms="5642">
+      <class name="api_testcases.teleComProject">
+        <test-method signature="AddNewUser()[pri:1, instance:api_testcases.teleComProject@7334aada]" started-at="2026-01-21T22:29:01 IST" name="AddNewUser" finished-at="2026-01-21T22:29:05 IST" duration-ms="4415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewUser -->
+        <test-method signature="deleteContact()[pri:0, instance:api_testcases.teleComProject@7334aada]" started-at="2026-01-21T22:29:05 IST" name="deleteContact" finished-at="2026-01-21T22:29:06 IST" depends-on-methods="api_testcases.teleComProject.AddNewUser" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+      </class> <!-- api_testcases.teleComProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

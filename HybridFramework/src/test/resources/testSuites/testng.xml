@@ -1,0 +1,11 @@
+<suite name="AutomationSuite" parallel="tests" thread-count="2">
+
+<test name="CucumberTests">
+<parameter name="cucumber.filter.tags" value="@valid"/>
+<classes>
+<class name="runner.TestRunner"/>
+</classes>
+
+</test>
+
+</suite>

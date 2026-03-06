@@ -2,22 +2,24 @@ package com.blazedemo.utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 public class baseTest {
 
 	protected WebDriver driver;
 
-	@BeforeMethod  // responsible to launch browser + URL
+	@BeforeTest  // responsible to launch browser + URL
 	public void setUp() {
+		System.out.println("BeforeMethod");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://blazedemo.com");
 	}
 
-	@AfterMethod
+	@AfterTest
 	public void tearDown() {
+		System.out.println("AfterMethod");
 		driver.quit();
 	}
 

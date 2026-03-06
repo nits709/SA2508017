@@ -11,23 +11,23 @@ public class flightAppTestcases extends baseTest {
 	homePage hp;
 	reservePage rp;
 
-	@Test (groups="smoke")
+	@Test(priority = 1, groups = "smoke")
 	public void TC_01_VerfiyHomePage() {
 		hp = new homePage(driver);
 		hp.homePageDisplayed();
 
 	}
 
-	@Test(groups="functional")
+	@Test(priority = 2, groups = "functional")
 	public void TC_02_searchFlights() {
 		hp = new homePage(driver);
 		hp.searchFlights("Boston", "New York");
 	}
-	
-	@Test(groups="functional")
+
+	@Test(priority = 3, groups = "functional")
 	public void TC_03_SelectFlight() {
 		TC_02_searchFlights();
-		rp= new reservePage(driver);
+		rp = new reservePage(driver);
 		rp.selectFlight("United Airlines");
 	}
 

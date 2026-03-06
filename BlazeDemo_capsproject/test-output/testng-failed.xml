@@ -5,10 +5,9 @@
     <classes>
       <class name="com.blazedemo.tests.flightAppTestcases">
         <methods>
+          <include name="initElement"/>
           <include name="TC_03_SelectFlight"/>
-          <include name="TC_02_searchFlights"/>
           <include name="tearDown"/>
-          <include name="TC_01_VerfiyHomePage"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.blazedemo.tests.flightAppTestcases -->

@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.blazedemo.tests.flightAppTestcases" class="method navigator-link" hash-for-method="TC_01_VerfiyHomePage">TC_01_VerfiyHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.blazedemo.tests.flightAppTestcases" class="method navigator-link" hash-for-method="TC_02_searchFlights">TC_02_searchFlights</a> <!-- method navigator-link -->
@@ -131,6 +136,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="TC_01_VerfiyHomePage">
+                  </a> <!-- TC_01_VerfiyHomePage -->
+                  <span class="method-name">TC_01_VerfiyHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="TC_02_searchFlights">
                   </a> <!-- TC_02_searchFlights -->
                   <span class="method-name">TC_02_searchFlights</span>
@@ -148,7 +160,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/rl/ytnk6vbs63s76j7737gxs7v00000gn/T/testng-eclipse-1487891651/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/rl/ytnk6vbs63s76j7737gxs7v00000gn/T/testng-eclipse-1222885179/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -181,6 +193,26 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_02_searchFlights</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_03_SelectFlight</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_01_VerfiyHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -197,20 +229,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_03_SelectFlight')
+data.setCell(0, 1, 'TC_02_searchFlights')
 data.setCell(0, 2, 'com.blazedemo.tests.flightAppTestcases')
-data.setCell(0, 3, 2315);
+data.setCell(0, 3, 1638);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC_02_searchFlights')
+data.setCell(1, 1, 'TC_03_SelectFlight')
 data.setCell(1, 2, 'com.blazedemo.tests.flightAppTestcases')
-data.setCell(1, 3, 1937);
+data.setCell(1, 3, 323);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_01_VerfiyHomePage')
+data.setCell(2, 2, 'com.blazedemo.tests.flightAppTestcases')
+data.setCell(2, 3, 315);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,30 +273,30 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.blazedemo.tests.flightAppTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">initElement</span>
+                <span class="method-start">7642 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_VerfiyHomePage</span>
+                <span class="method-start">7652 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC_02_searchFlights</span>
-                <span class="method-start">7701 ms</span>
+                <span class="method-start">7976 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">9645 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">9764 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_03_SelectFlight</span>
-                <span class="method-start">17037 ms</span>
+                <span class="method-start">9618 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19356 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">9944 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
