@@ -1,4 +1,4 @@
-package report;
+package keywordFunctions;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -7,7 +7,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentManager {
 
-	public static ExtentReports report;
+	static ExtentReports report;
 	
 	
 	public static ExtentReports getReporterObject() {
